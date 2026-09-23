@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Minh Khôi Camera &amp; Mạng | Kiểm tra tận nơi Tân Phú</title>
+<meta content="Camera mất hình, không xem được từ xa, Wi-Fi yếu? Minh Khôi kiểm tra camera &amp; mạng tận nơi khu vực Tân Phú, Tây Thạnh và lân cận. Khảo sát miễn phí, báo giá trước khi làm." name="description"/>
+<meta content="#f7fbff" name="theme-color"/>
+<meta content="Minh Khôi Camera &amp; Mạng" property="og:title"/>
+<meta content="Camera lỗi, Wi-Fi yếu? Khảo sát miễn phí – báo giá trước khi làm." property="og:description"/>
+<meta content="website" property="og:type"/>
+<style>
+    :root{
+      --bg:#f7fbff;--bg2:#eef7ff;--card:#ffffff;--card2:#f3f9ff;--text:#0b1f36;--muted:#58708a;
+      --blue:#087bff;--blue2:#1456d9;--cyan:#18c8f5;--line:rgba(15,73,130,.13);--ok:#00a97a;--warn:#c98a00;
+      --shadow:0 22px 60px rgba(19,84,151,.12);--shadow2:0 12px 34px rgba(10,90,170,.10);--radius:22px;--max:1160px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);line-height:1.6;background:
+      radial-gradient(900px 540px at 88% -8%,rgba(24,200,245,.16),transparent 62%),
+      radial-gradient(720px 520px at -10% 24%,rgba(8,123,255,.11),transparent 58%),
+      linear-gradient(180deg,#fbfdff 0%,#f4faff 46%,#fbfdff 100%);overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-3;background-image:
+      linear-gradient(rgba(22,113,201,.045) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(22,113,201,.045) 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(to bottom,rgba(0,0,0,.75),transparent 74%)}
+    body:after{content:"";position:fixed;width:520px;height:520px;right:-170px;top:120px;z-index:-2;pointer-events:none;border-radius:50%;background:radial-gradient(circle,rgba(24,200,245,.13),rgba(8,123,255,.04) 40%,transparent 70%);filter:blur(2px);animation:pulseOrb 7s ease-in-out infinite}
+    @keyframes pulseOrb{0%,100%{transform:scale(.96);opacity:.72}50%{transform:scale(1.08);opacity:1}}
+    @keyframes scan{0%{transform:translateY(-80px);opacity:0}15%{opacity:.55}85%{opacity:.4}100%{transform:translateY(560px);opacity:0}}
+    @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    @keyframes ring{to{transform:rotate(360deg)}}
+    a{color:inherit;text-decoration:none} img{max-width:100%;display:block} button,input,select,textarea{font:inherit}
+    .wrap{width:min(var(--max),calc(100% - 32px));margin:auto}
+    .nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.80);backdrop-filter:blur(18px);border-bottom:1px solid rgba(15,73,130,.09);box-shadow:0 8px 26px rgba(18,85,150,.06)}
+    .nav-inner{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.4px}.brand-mark{position:relative;width:44px;height:44px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,#087bff,#1bd8f6);color:#fff;box-shadow:0 10px 24px rgba(8,123,255,.24);font-weight:950;overflow:hidden}.brand-mark:after{content:"";position:absolute;width:55px;height:8px;background:rgba(255,255,255,.55);transform:rotate(-35deg);animation:scanMark 4s linear infinite}@keyframes scanMark{from{left:-60px}to{left:60px}}.brand small{display:block;color:var(--muted);font-weight:700;font-size:11px;letter-spacing:1.55px}
+    .nav-cta{display:flex;gap:10px}.btn{border:0;border-radius:14px;padding:12px 18px;font-weight:850;display:inline-flex;align-items:center;justify-content:center;gap:9px;cursor:pointer;transition:.2s transform,.2s box-shadow,.2s border-color,.2s background}.btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:linear-gradient(135deg,var(--blue),var(--cyan));color:#fff;box-shadow:0 12px 32px rgba(8,123,255,.24)}.btn-primary:hover{box-shadow:0 16px 38px rgba(8,123,255,.30)}
+    .btn-ghost{background:rgba(255,255,255,.82);border:1px solid rgba(8,123,255,.18);color:#12426f;box-shadow:0 7px 20px rgba(15,73,130,.05)}.btn-ghost:hover{border-color:rgba(8,123,255,.35);background:#fff}
+    .hero{position:relative;padding:78px 0 50px;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;z-index:-1;background:
+      radial-gradient(520px 280px at 78% 42%,rgba(24,200,245,.12),transparent 70%),
+      linear-gradient(115deg,transparent 0 65%,rgba(8,123,255,.035) 65% 66%,transparent 66%)}
+    .hero:after{content:"";position:absolute;left:0;right:0;top:0;height:2px;z-index:-1;background:linear-gradient(90deg,transparent,rgba(24,200,245,.9),transparent);box-shadow:0 0 24px rgba(24,200,245,.65);animation:scan 6s linear infinite}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:48px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;padding:8px 12px;border-radius:999px;border:1px solid rgba(8,123,255,.18);background:rgba(255,255,255,.72);color:#12629f;font-size:13px;font-weight:850;box-shadow:0 8px 20px rgba(8,123,255,.07)}.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 14px rgba(0,169,122,.42)}
+    h1{font-size:clamp(38px,5.2vw,70px);line-height:1.03;margin:18px 0 18px;letter-spacing:-2.2px}.gradient{background:linear-gradient(90deg,#0b1f36 0%,#0c67c9 42%,#0a94e9 72%,#15bfe4 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:19px;color:#4b6680;max-width:700px;margin:0 0 24px}.lead strong{color:#173d63}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}.micro{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:14px}.micro strong{color:#173d63}.micro span{display:flex;align-items:center;gap:7px}.check{color:var(--ok)}
+    .visual{position:relative;isolation:isolate}.visual:before{content:"";position:absolute;inset:-17px;border-radius:34px;background:conic-gradient(from 0deg,transparent 0 58%,rgba(24,200,245,.72) 64%,rgba(8,123,255,.30) 69%,transparent 76%);filter:blur(.2px);z-index:-1;animation:ring 10s linear infinite;opacity:.62}.visual:after{content:"";position:absolute;width:110px;height:110px;right:-20px;top:-22px;border:1px solid rgba(8,123,255,.18);border-radius:50%;box-shadow:0 0 0 18px rgba(8,123,255,.025),0 0 0 36px rgba(24,200,245,.02);z-index:-2}.visual-card{position:relative;border-radius:28px;background:linear-gradient(145deg,#fff,#eff8ff);border:1px solid rgba(8,123,255,.16);padding:12px;box-shadow:var(--shadow);overflow:hidden}.visual-card:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 34%,rgba(255,255,255,.55) 46%,transparent 57%);transform:translateX(-120%);animation:shine 5.8s ease-in-out infinite;pointer-events:none;z-index:2}@keyframes shine{0%,45%{transform:translateX(-120%)}70%,100%{transform:translateX(120%)}}.visual-card img{border-radius:20px;aspect-ratio:16/10;object-fit:cover}.floating{position:absolute;left:-28px;bottom:28px;padding:14px 16px;background:rgba(255,255,255,.94);border:1px solid rgba(8,123,255,.17);border-radius:16px;box-shadow:var(--shadow2);font-weight:850;color:#11375b;animation:floaty 4s ease-in-out infinite}.floating small{display:block;color:var(--muted);font-weight:650}
+    .trust{padding:20px 0 56px}.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat{position:relative;overflow:hidden;padding:18px;border:1px solid var(--line);background:rgba(255,255,255,.80);border-radius:18px;box-shadow:0 8px 25px rgba(17,93,166,.055);transition:.2s}.stat:after{content:"";position:absolute;width:70px;height:70px;right:-30px;bottom:-30px;border-radius:50%;background:radial-gradient(circle,rgba(24,200,245,.20),transparent 70%)}.stat:hover{transform:translateY(-3px);box-shadow:var(--shadow2)}.stat b{display:block;font-size:22px;margin-bottom:3px;color:#123a62}.stat span{color:var(--muted);font-size:13px}
+    section{padding:72px 0}.section-head{max-width:760px;margin-bottom:28px}.kicker{color:#087bdc;font-weight:900;font-size:13px;letter-spacing:1.4px;text-transform:uppercase}.section-head h2{font-size:clamp(30px,4vw,46px);line-height:1.12;margin:10px 0 12px;letter-spacing:-1.2px}.section-head p{margin:0;color:var(--muted);font-size:17px}
+    .problem-grid,.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{position:relative;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,251,255,.96));border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:0 10px 30px rgba(17,93,166,.055);transition:.22s transform,.22s box-shadow,.22s border-color;overflow:hidden}.card:before{content:"";position:absolute;left:0;top:0;width:46px;height:2px;background:linear-gradient(90deg,var(--blue),var(--cyan))}.card:hover{transform:translateY(-4px);border-color:rgba(8,123,255,.25);box-shadow:0 18px 42px rgba(17,93,166,.11)}.icon{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(8,123,255,.11),rgba(24,200,245,.13));border:1px solid rgba(8,123,255,.13);font-size:22px;color:#086ec9}.card h3{margin:14px 0 8px;font-size:18px}.card p{margin:0;color:var(--muted);font-size:14px}
+    .offer{position:relative;background:linear-gradient(135deg,rgba(223,243,255,.72),rgba(244,251,255,.88));border-top:1px solid rgba(8,123,255,.10);border-bottom:1px solid rgba(8,123,255,.10);overflow:hidden}.offer:after{content:"";position:absolute;right:-100px;top:-80px;width:340px;height:340px;border-radius:50%;border:1px dashed rgba(8,123,255,.16);box-shadow:0 0 0 42px rgba(8,123,255,.025),0 0 0 84px rgba(24,200,245,.018);pointer-events:none}.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.price.featured{border-color:rgba(8,123,255,.31);box-shadow:0 0 0 1px rgba(8,123,255,.07),0 24px 54px rgba(17,93,166,.13)}.badge{position:absolute;right:18px;top:18px;background:rgba(0,169,122,.08);color:#057d5f;border:1px solid rgba(0,169,122,.20);padding:6px 9px;border-radius:999px;font-size:12px;font-weight:900}.price .from{color:var(--muted);font-size:13px}.price .money{font-size:34px;font-weight:950;letter-spacing:-1px;margin:2px 0 14px;color:#0c4f94}.price ul{list-style:none;padding:0;margin:14px 0 0}.price li{padding:7px 0;color:#49657f;font-size:14px;border-bottom:1px dashed rgba(12,79,148,.10)}.price li:last-child{border:0}.note{margin-top:18px;color:var(--muted);font-size:13px}
+    .process{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{position:relative;padding-top:12px}.num{font-size:13px;color:#087bdc;font-weight:950}.step h3{margin:8px 0}.step p{color:var(--muted);margin:0;font-size:14px}.step:after{content:"";position:absolute;right:-14px;top:28px;width:24px;height:1px;background:linear-gradient(90deg,var(--blue),transparent)}.step:last-child:after{display:none}
+    .lead-section{padding:78px 0 120px}.lead-box{position:relative;display:grid;grid-template-columns:.85fr 1.15fr;gap:28px;padding:30px;border:1px solid rgba(8,123,255,.16);border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.96),rgba(236,247,255,.90));box-shadow:var(--shadow);overflow:hidden}.lead-box:before{content:"";position:absolute;width:300px;height:300px;left:-150px;bottom:-180px;border-radius:50%;background:radial-gradient(circle,rgba(24,200,245,.16),transparent 68%)}.lead-copy h2{font-size:38px;line-height:1.12;margin:8px 0 12px}.lead-copy p{color:var(--muted)}.benefit{display:flex;align-items:flex-start;gap:10px;margin:12px 0}.benefit b{display:block}.benefit span{color:var(--muted);font-size:13px}
+    form{display:grid;grid-template-columns:1fr 1fr;gap:12px;position:relative}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:13px;color:#3f617f;font-weight:800}.field input,.field select,.field textarea{width:100%;background:#fff;border:1px solid rgba(15,73,130,.16);color:#0b1f36;border-radius:13px;padding:13px 14px;outline:none;box-shadow:inset 0 1px 0 rgba(15,73,130,.02)}.field input:focus,.field select:focus,.field textarea:focus{border-color:#159be8;box-shadow:0 0 0 3px rgba(21,155,232,.10)}.field textarea{min-height:90px;resize:vertical}.form-actions{grid-column:1/-1;display:flex;gap:10px;align-items:center;flex-wrap:wrap}.privacy{font-size:12px;color:#71879b}.success{display:none;grid-column:1/-1;padding:12px 14px;border:1px solid rgba(0,169,122,.20);background:rgba(0,169,122,.07);color:#06765b;border-radius:13px}
+    .faq{display:grid;grid-template-columns:1fr 1fr;gap:12px}.faq details{background:rgba(255,255,255,.88);border:1px solid var(--line);border-radius:16px;padding:16px 18px;box-shadow:0 8px 24px rgba(17,93,166,.04)}.faq summary{cursor:pointer;font-weight:850}.faq p{color:var(--muted);margin-bottom:2px}
+    footer{border-top:1px solid rgba(8,123,255,.10);padding:32px 0 100px;color:var(--muted);background:linear-gradient(180deg,rgba(243,250,255,.60),rgba(235,247,255,.92))}.footer-grid{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-grid b{color:#143d63}
+    .mobile-bar{display:none;position:fixed;left:10px;right:10px;bottom:10px;z-index:70;padding:8px;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border:1px solid rgba(8,123,255,.14);box-shadow:0 12px 34px rgba(17,93,166,.15);border-radius:16px;gap:8px}.mobile-bar .btn{flex:1;padding:12px 10px}
+    @media(max-width:900px){.hero-grid,.lead-box{grid-template-columns:1fr}.hero{padding-top:48px}.visual{max-width:720px}.floating{left:10px}.problem-grid,.service-grid,.trust-grid,.process{grid-template-columns:repeat(2,1fr)}.price-grid{grid-template-columns:1fr}.faq{grid-template-columns:1fr}.nav-cta .btn-ghost{display:none}}
+    @media(max-width:600px){.wrap{width:min(100% - 22px,var(--max))}.nav-inner{height:64px}.brand small{display:none}.nav-cta .btn-primary{display:none}h1{letter-spacing:-1.5px}.lead{font-size:17px}.problem-grid,.service-grid,.trust-grid,.process{grid-template-columns:1fr}.step:after{display:none}.visual-card{padding:8px}.visual:before{inset:-9px}.floating{position:static;margin-top:10px}.hero-actions .btn{width:100%}.lead-box{padding:20px}.lead-copy h2{font-size:31px}form{grid-template-columns:1fr}.field,.field.full{grid-column:1}.mobile-bar{display:flex}footer{padding-bottom:100px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation-duration:.001ms!important;animation-iteration-count:1!important}}
+  
+</style>
+</head>
+<body>
+<nav class="nav">
+<div class="wrap nav-inner">
+<a aria-label="Minh Khôi Camera &amp; Mạng" class="brand" href="#top">
+<span class="brand-mark">MK</span>
+<span id="brandText">MINH KHÔI<small id="brandTagline">CAMERA · MẠNG · CÔNG NGHỆ</small></span>
+</a>
+<div class="nav-cta">
+<a class="btn btn-ghost track" data-event="zalo_nav" href="https://zalo.me/0901234567" id="zaloNav" rel="noopener" target="_blank">Chat Zalo</a>
+<a class="btn btn-primary track" data-event="call_nav" href="tel:0901234567" id="callNav">Gọi 0901 234 567</a>
+</div>
+</div>
+</nav>
+<main id="top">
+<section class="hero">
+<div class="wrap hero-grid">
+<div>
+<div class="eyebrow" id="heroEyebrow"><span class="dot"></span> Phục vụ Tân Phú · Tây Thạnh · khu vực lân cận</div>
+<h1 id="heroTitle"><span class="gradient">Camera mất hình?</span><br/>Wi‑Fi yếu, chập chờn?</h1>
+<p class="lead" id="heroLead">Minh Khôi kiểm tra camera &amp; mạng tận nơi. Nhận hệ thống đang sử dụng, xử lý lỗi, tối ưu và bảo trì định kỳ. <strong>Khảo sát miễn phí – báo giá trước khi làm.</strong></p>
+<div class="hero-actions">
+<a class="btn btn-primary track" data-event="call_hero" href="tel:0901234567" id="callHero">☎ Gọi kiểm tra ngay</a>
+<a class="btn btn-ghost track" data-event="form_hero" href="#dang-ky" id="formHero">Đặt lịch khảo sát</a>
+</div>
+<div class="micro" id="heroMicro">
+<span><b class="check">✓</b> <strong>Không ép thay mới</strong></span>
+<span><b class="check">✓</b> Báo giá trước</span>
+<span><b class="check">✓</b> Có gói bảo trì tháng</span>
+</div>
+</div>
+<div class="visual">
+<div class="visual-card"><img alt="Minh Khôi Camera Mạng Công Nghệ" id="heroImage" src="assets/logo-minh-khoi.png"/></div>
+<div class="floating" id="heroFloating">Khảo sát miễn phí<small>Kiểm tra hiện trạng trước khi báo giá</small></div>
+</div>
+</div>
+</section>
+<div class="trust">
+<div class="wrap trust-grid" id="trustGrid">
+<div class="stat"><b>Camera</b><span>Mất hình · offline · không xem từ xa</span></div>
+<div class="stat"><b>Mạng / Wi‑Fi</b><span>Yếu sóng · chập chờn · nhiều tầng/phòng</span></div>
+<div class="stat"><b>Hệ thống cũ</b><span>Nhận kiểm tra, tinh chỉnh và bảo trì</span></div>
+<div class="stat"><b>Combo</b><span>Camera + mạng cho nhà, shop, văn phòng nhỏ</span></div>
+</div>
+</div>
+<section>
+<div class="wrap">
+<div class="section-head"><div class="kicker" id="problemKicker">Đúng vấn đề – xử lý đúng chỗ</div><h2 id="problemTitle">Các tình trạng Minh Khôi nhận kiểm tra</h2><p id="problemIntro">Ưu tiên kiểm tra hệ thống hiện tại trước, chỉ đề xuất thay thiết bị khi thực sự cần.</p></div>
+<div class="problem-grid" id="problemGrid">
+<div class="card"><div class="icon">◉</div><h3>Camera mất hình</h3><p>Một hoặc nhiều mắt camera không lên hình, chập chờn hoặc thường xuyên offline.</p></div>
+<div class="card"><div class="icon">▣</div><h3>Không xem từ xa</h3><p>Điện thoại không xem được camera, app báo lỗi hoặc mất kết nối ngoài mạng.</p></div>
+<div class="card"><div class="icon">⌁</div><h3>Wi‑Fi yếu</h3><p>Sóng yếu, đổi tầng mất mạng, camera Wi‑Fi hay rớt kết nối.</p></div>
+<div class="card"><div class="icon">⚙</div><h3>Hệ thống cần bảo trì</h3><p>Cần kiểm tra định kỳ, tối ưu đầu ghi, mạng, lưu trữ và kết nối thiết bị.</p></div>
+</div>
+</div>
+</section>
+<section class="offer" id="bang-gia">
+<div class="wrap">
+<div class="section-head"><div class="kicker" id="priceKicker">Chi phí tham khảo</div><h2 id="priceTitle">Chọn cách xử lý phù hợp hiện trạng</h2><p id="priceIntro">Giá dưới đây dùng để định hướng. Minh Khôi khảo sát hiện trạng trước khi chốt báo giá chính thức.</p></div>
+<div class="price-grid" id="priceGrid">
+<div class="card price featured"><span class="badge">Dễ bắt đầu</span><div class="from">Hệ thống camera đã có sẵn</div><div class="money">Từ 300K<span style="font-size:15px;color:var(--muted)">/tháng</span></div><ul><li>≤4 camera: tinh chỉnh 500K/lần</li><li>Bảo trì từ 300K/tháng</li><li>Không cọc thiết bị</li><li>Phù hợp nhà ở, shop, cửa hàng nhỏ</li></ul></div>
+<div class="card price"><div class="from">Mạng / Wi‑Fi đã có sẵn</div><div class="money">Từ 200K<span style="font-size:15px;color:var(--muted)">/tháng</span></div><ul><li>1 router: tinh chỉnh 300K/lần</li><li>Bảo trì từ 200K/tháng</li><li>Không phụ thuộc hãng thiết bị</li><li>Phù hợp nhà, cửa hàng, văn phòng nhỏ</li></ul></div>
+<div class="card price"><div class="from">Thuê thiết bị camera</div><div class="money">Từ 900K<span style="font-size:15px;color:var(--muted)">/tháng</span></div><ul><li>Gói cơ bản 3–4 camera</li><li>Đã gồm thiết bị + giám sát</li><li>Có gói 5–6 và 8–10 camera</li><li>Áp dụng chính sách cọc theo cam kết</li></ul></div>
+</div>
+<p class="note" id="priceNote">* Giá tham khảo theo bảng tư vấn hiện tại; chi phí cuối cùng phụ thuộc thiết bị, hiện trạng đường dây, vị trí và phạm vi công việc.</p>
+</div>
+</section>
+<section>
+<div class="wrap">
+<div class="section-head"><div class="kicker" id="processKicker">Quy trình 4 bước</div><h2 id="processTitle">Từ liên hệ đến xử lý, ngắn gọn và rõ chi phí</h2></div>
+<div class="process" id="processGrid">
+<div class="step card"><div class="num">01</div><h3>Gửi tình trạng</h3><p>Cho biết khu vực, số camera hoặc tình trạng mạng đang gặp.</p></div>
+<div class="step card"><div class="num">02</div><h3>Kiểm tra sơ bộ</h3><p>Trao đổi qua điện thoại/Zalo, có thể gửi ảnh hoặc video lỗi.</p></div>
+<div class="step card"><div class="num">03</div><h3>Khảo sát tận nơi</h3><p>Kiểm tra hiện trạng thực tế và đề xuất phương án phù hợp.</p></div>
+<div class="step card"><div class="num">04</div><h3>Báo giá rồi mới làm</h3><p>Chỉ triển khai sau khi khách đồng ý phương án và chi phí.</p></div>
+</div>
+</div>
+</section>
+<section class="lead-section" id="dang-ky">
+<div class="wrap lead-box">
+<div class="lead-copy">
+<div class="kicker" id="leadKicker">Đặt lịch kiểm tra</div>
+<h2 id="leadTitle">Cho Minh Khôi biết vấn đề của bạn</h2>
+<p id="leadIntro">Điền 30 giây. Nếu chưa muốn điền form, có thể gọi hoặc nhắn Zalo trực tiếp.</p>
+<div id="benefitGrid"><div class="benefit"><div class="check">✓</div><div><b>Khảo sát miễn phí</b><span>Kiểm tra hiện trạng trước khi chốt phương án.</span></div></div><div class="benefit"><div class="check">✓</div><div><b>Phù hợp cả hệ thống cũ</b><span>Không bắt buộc mua camera hay router mới.</span></div></div><div class="benefit"><div class="check">✓</div><div><b>Có bảo trì định kỳ</b><span>Phù hợp shop, cửa hàng và văn phòng cần người theo dõi hệ thống.</span></div></div></div></div>
+<form id="leadForm">
+<div class="field"><label for="name">Họ tên</label><input autocomplete="name" id="name" name="name" placeholder="Nguyễn Văn A" required=""/></div>
+<div class="field"><label for="phone">Số điện thoại</label><input autocomplete="tel" id="phone" inputmode="tel" name="phone" placeholder="09xx xxx xxx" required=""/></div>
+<div class="field"><label for="area">Khu vực</label><select id="area" name="area" required=""><option value="">Chọn khu vực</option><option>Tân Phú</option><option>Tây Thạnh</option><option>Tân Bình</option><option>Bình Tân</option><option>Quận 11</option><option>Quận 12</option><option>Khu vực khác</option></select></div>
+<div class="field"><label for="need">Nhu cầu</label><select id="need" name="need" required=""><option value="">Chọn nhu cầu</option><option>Camera đang bị lỗi</option><option>Muốn lắp camera mới</option><option>Bảo trì camera</option><option>Mạng / Wi‑Fi yếu</option><option>Camera + mạng</option></select></div>
+<div class="field full"><label for="detail">Mô tả ngắn</label><textarea id="detail" name="detail" placeholder="Ví dụ: 4 camera Hikvision, 1 mắt mất hình, điện thoại không xem được từ 4G..."></textarea></div>
+<input id="utm_source" name="utm_source" type="hidden"/><input id="utm_campaign" name="utm_campaign" type="hidden"/><input id="utm_term" name="utm_term" type="hidden"/>
+<div class="success" id="successBox">Đã ghi nhận thông tin trên trình duyệt. Bấm “Gửi qua Zalo” để chuyển nội dung cho Minh Khôi ngay.</div>
+<div class="form-actions"><button class="btn btn-primary" type="submit">Gửi yêu cầu</button><a class="btn btn-ghost track" data-event="zalo_form" href="https://zalo.me/0901234567" id="zaloLead" rel="noopener" target="_blank">Gửi qua Zalo</a></div>
+<div class="privacy field full" id="formPrivacy">Bản demo này chưa kết nối máy chủ lưu lead. Có thể nối Google Sheets / Apps Script / CRM sau khi đưa website lên hosting.</div>
+</form>
+</div>
+</section>
+<section style="padding-top:0">
+<div class="wrap">
+<div class="section-head"><div class="kicker" id="faqKicker">Câu hỏi thường gặp</div><h2 id="faqTitle">Trước khi đặt lịch</h2></div>
+<div class="faq" id="faqGrid">
+<details><summary>Camera cũ có nhận sửa và bảo trì không?</summary><p>Có. Minh Khôi có mô hình dành cho khách đã có camera, tính phí tinh chỉnh ban đầu và phí bảo trì theo quy mô.</p></details>
+<details><summary>Wi‑Fi đang dùng hãng khác có nhận không?</summary><p>Có. Gói mạng hiện tại không phụ thuộc hãng thiết bị khách đang dùng; chi phí tính theo quy mô và công sức giám sát.</p></details>
+<details><summary>Có bắt buộc thuê thiết bị theo tháng không?</summary><p>Không. Khách có thể dùng mô hình bảo trì hệ thống hiện có hoặc chọn thuê thiết bị nếu hệ thống cũ không còn phù hợp.</p></details>
+<details><summary>Khi nào biết giá chính xác?</summary><p>Sau khi kiểm tra hiện trạng. Minh Khôi khảo sát miễn phí và báo giá trước khi thực hiện.</p></details>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap footer-grid"><div id="footerLeft"><b>MINH KHÔI CAMERA &amp; MẠNG</b><br/>Tân Phú · Tây Thạnh &amp; khu vực lân cận</div><div id="footerRight">Hotline / Zalo: <b>0901 234 567</b><br/><span id="year"></span> · Landing page tối ưu cho quảng cáo địa phương</div></div>
+</footer>
+<div class="mobile-bar"><a class="btn btn-primary track" data-event="call_mobile" href="tel:0901234567" id="callMobile">☎ Gọi ngay</a><a class="btn btn-ghost track" data-event="zalo_mobile" href="https://zalo.me/0901234567" id="zaloMobile" rel="noopener" target="_blank">Zalo</a></div>
+<script>
+    let FORM_ENDPOINT = '';
+    let SITE = null;
+
+    const $ = (sel) => document.querySelector(sel);
+    const esc = (s='') => String(s).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    const digits = (s='') => String(s).replace(/\D/g,'');
+    const setText = (sel, value) => { const el=$(sel); if(el && value !== undefined && value !== null) el.textContent=value; };
+
+    function renderList(container, items, renderer){
+      const el=$(container); if(!el || !Array.isArray(items)) return;
+      el.innerHTML = items.map(renderer).join('');
+    }
+
+    function setSeo(cfg){
+      if(cfg.seo_title) document.title = cfg.seo_title;
+      const desc = document.querySelector('meta[name="description"]');
+      if(desc && cfg.seo_description) desc.setAttribute('content', cfg.seo_description);
+      const ogt = document.querySelector('meta[property="og:title"]');
+      const ogd = document.querySelector('meta[property="og:description"]');
+      if(ogt && cfg.seo_title) ogt.setAttribute('content', cfg.seo_title);
+      if(ogd && cfg.seo_description) ogd.setAttribute('content', cfg.seo_description);
+    }
+
+    function applySite(cfg){
+      SITE = cfg;
+      FORM_ENDPOINT = cfg.form_endpoint || '';
+      setSeo(cfg);
+      const phone = cfg.phone || '0901 234 567';
+      const phoneDigits = digits(phone);
+      const zaloDigits = digits(cfg.zalo || phone);
+      const brandName = cfg.business_name || 'MINH KHÔI';
+      setText('#brandText', brandName);
+      const small = document.createElement('small'); small.id='brandTagline'; small.textContent=cfg.brand_tagline || 'CAMERA · MẠNG · CÔNG NGHỆ';
+      const brand = $('#brandText'); if(brand){ const old=brand.querySelector('small'); if(old) old.remove(); brand.appendChild(small); }
+
+      const callLinks = ['#callNav','#callHero','#callMobile'];
+      callLinks.forEach(s=>{ const a=$(s); if(a) a.href='tel:'+phoneDigits; });
+      const zaloLinks = ['#zaloNav','#zaloLead','#zaloMobile'];
+      zaloLinks.forEach(s=>{ const a=$(s); if(a) a.href='https://zalo.me/'+zaloDigits; });
+      setText('#callNav', 'Gọi ' + phone);
+      setText('#zaloNav', cfg.zalo_button || 'Chat Zalo');
+      setText('#callHero', cfg.hero_call_button || '☎ Gọi kiểm tra ngay');
+      setText('#formHero', cfg.hero_form_button || 'Đặt lịch khảo sát');
+      setText('#callMobile', cfg.mobile_call_button || '☎ Gọi ngay');
+      setText('#zaloMobile', cfg.mobile_zalo_button || 'Zalo');
+      setText('#zaloLead', cfg.form_zalo_button || 'Gửi qua Zalo');
+
+      const eyebrow=$('#heroEyebrow'); if(eyebrow) eyebrow.innerHTML='<span class="dot"></span> '+esc(cfg.hero_eyebrow || '');
+      const heroTitle=$('#heroTitle');
+      if(heroTitle) heroTitle.innerHTML='<span class="gradient">'+esc(cfg.hero_title_1 || '')+'</span><br>'+esc(cfg.hero_title_2 || '');
+      const heroLead=$('#heroLead');
+      if(heroLead) heroLead.innerHTML=esc(cfg.hero_text || '') + (cfg.hero_highlight ? ' <strong>'+esc(cfg.hero_highlight)+'</strong>' : '');
+      const heroImg=$('#heroImage'); if(heroImg && cfg.hero_image) heroImg.src=cfg.hero_image;
+      const flo=$('#heroFloating'); if(flo) flo.innerHTML=esc(cfg.floating_title || '')+'<small>'+esc(cfg.floating_subtitle || '')+'</small>';
+      renderList('#heroMicro', cfg.hero_points, x=>'<span><b class="check">✓</b> '+esc(x.text)+'</span>');
+
+      renderList('#trustGrid', cfg.trust_cards, x=>'<div class="stat"><b>'+esc(x.title)+'</b><span>'+esc(x.text)+'</span></div>');
+      setText('#problemKicker', cfg.problem_kicker); setText('#problemTitle', cfg.problem_title); setText('#problemIntro', cfg.problem_intro);
+      renderList('#problemGrid', cfg.problems, x=>'<div class="card"><div class="icon">'+esc(x.icon)+'</div><h3>'+esc(x.title)+'</h3><p>'+esc(x.text)+'</p></div>');
+
+      setText('#priceKicker', cfg.price_kicker); setText('#priceTitle', cfg.price_title); setText('#priceIntro', cfg.price_intro); setText('#priceNote', cfg.price_note);
+      renderList('#priceGrid', cfg.prices, x=>'<div class="card price '+(x.featured?'featured':'')+'">'+(x.badge?'<span class="badge">'+esc(x.badge)+'</span>':'')+'<div class="from">'+esc(x.title)+'</div><div class="money">'+esc(x.amount)+'<span style="font-size:15px;color:var(--muted)">'+esc(x.suffix||'')+'</span></div><ul>'+(x.bullets||[]).map(b=>'<li>'+esc(b.text||b)+'</li>').join('')+'</ul></div>');
+
+      setText('#processKicker', cfg.process_kicker); setText('#processTitle', cfg.process_title);
+      renderList('#processGrid', cfg.process_steps, (x,i)=>'<div class="step card"><div class="num">'+String(i+1).padStart(2,'0')+'</div><h3>'+esc(x.title)+'</h3><p>'+esc(x.text)+'</p></div>');
+
+      setText('#leadKicker', cfg.lead_kicker); setText('#leadTitle', cfg.lead_title); setText('#leadIntro', cfg.lead_intro);
+      renderList('#benefitGrid', cfg.benefits, x=>'<div class="benefit"><div class="check">✓</div><div><b>'+esc(x.title)+'</b><span>'+esc(x.text)+'</span></div></div>');
+      const area=$('#area'); if(area && Array.isArray(cfg.area_options)) area.innerHTML='<option value="">Chọn khu vực</option>'+cfg.area_options.map(x=>'<option>'+esc(x.text||x)+'</option>').join('');
+      const need=$('#need'); if(need && Array.isArray(cfg.need_options)) need.innerHTML='<option value="">Chọn nhu cầu</option>'+cfg.need_options.map(x=>'<option>'+esc(x.text||x)+'</option>').join('');
+      setText('#formPrivacy', cfg.form_privacy);
+
+      setText('#faqKicker', cfg.faq_kicker); setText('#faqTitle', cfg.faq_title);
+      renderList('#faqGrid', cfg.faqs, x=>'<details><summary>'+esc(x.question)+'</summary><p>'+esc(x.answer)+'</p></details>');
+
+      const footerLeft=$('#footerLeft'); if(footerLeft) footerLeft.innerHTML='<b>'+esc(cfg.footer_business || brandName)+'</b><br>'+esc(cfg.footer_area || cfg.hero_eyebrow || '');
+      const footerRight=$('#footerRight'); if(footerRight) footerRight.innerHTML='Hotline / Zalo: <b>'+esc(phone)+'</b><br><span id="year"></span> · '+esc(cfg.footer_note || 'Landing page tối ưu cho quảng cáo địa phương');
+      setText('#year', new Date().getFullYear());
+
+      if(cfg.gtm_id && /^GTM-[A-Z0-9]+$/i.test(cfg.gtm_id)){
+        window.dataLayer=window.dataLayer||[]; window.dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+        const s=document.createElement('script'); s.async=true; s.src='https://www.googletagmanager.com/gtm.js?id='+encodeURIComponent(cfg.gtm_id); document.head.appendChild(s);
+      }
+    }
+
+    async function loadSite(){
+      try{
+        const res=await fetch('/content/site.json?v='+Date.now(),{cache:'no-store'});
+        if(!res.ok) throw new Error('content_load_failed');
+        applySite(await res.json());
+      }catch(err){
+        console.warn('Không tải được content/site.json, dùng nội dung mặc định trong HTML.',err);
+        setText('#year', new Date().getFullYear());
+      }
+    }
+
+    const params = new URLSearchParams(location.search);
+    ['utm_source','utm_campaign','utm_term'].forEach(k=>{ const el=document.getElementById(k); if(el) el.value=params.get(k)||''; });
+
+    function track(name, extra={}){
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({event:name, ...extra});
+    }
+    document.querySelectorAll('.track').forEach(el=>el.addEventListener('click',()=>track(el.dataset.event||'cta_click')));
+
+    const form=document.getElementById('leadForm');
+    form.addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      const fd=new FormData(form);
+      const data=Object.fromEntries(fd.entries());
+      track('generate_lead',{need:data.need,area:data.area,utm_source:data.utm_source||''});
+      if(FORM_ENDPOINT){
+        try{
+          const res=await fetch(FORM_ENDPOINT,{method:'POST',body:fd});
+          if(!res.ok) throw new Error('submit_failed');
+          document.getElementById('successBox').textContent='Đã gửi yêu cầu. Minh Khôi sẽ liên hệ theo thông tin bạn cung cấp.';
+        }catch(err){
+          document.getElementById('successBox').textContent='Chưa gửi được tự động. Vui lòng bấm “Gửi qua Zalo” hoặc gọi hotline.';
+        }
+      } else {
+        localStorage.setItem('mk_last_lead',JSON.stringify({...data,time:new Date().toISOString()}));
+        document.getElementById('successBox').textContent='Đã ghi nhận tạm trên trình duyệt. Vui lòng bấm “Gửi qua Zalo” hoặc gọi hotline.';
+      }
+      document.getElementById('successBox').style.display='block';
+      document.getElementById('zaloLead').focus();
+    });
+
+    loadSite();
+</script>
+<!-- Google Ads / GA4: dán Google tag tại đây khi có Measurement ID / Conversion ID. -->
+<!-- Meta Pixel: dán Pixel code tại đây nếu chạy Facebook/Instagram Ads. -->
+</body>
+</html>

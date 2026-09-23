@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Minh Khôi - Quản trị website</title>
+  <style>
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#f4f9ff;color:#10263e}
+    #repo-setup{max-width:620px;margin:8vh auto;padding:28px;background:#fff;border:1px solid #d9e8f5;border-radius:20px;box-shadow:0 18px 50px rgba(10,76,135,.12)}
+    h1{margin:0 0 10px;font-size:28px} p{color:#5a7087;line-height:1.6}.row{display:grid;gap:8px;margin:18px 0}label{font-weight:800}input{padding:13px 14px;border:1px solid #bfd6ea;border-radius:12px;font-size:16px}button{border:0;border-radius:12px;padding:13px 18px;background:linear-gradient(135deg,#087bff,#18c8f5);color:#fff;font-weight:850;cursor:pointer}.hint{font-size:13px}.error{color:#b42318;font-weight:700;display:none}.ok{color:#087bff;font-weight:800}
+  </style>
+</head>
+<body>
+  <div id="repo-setup">
+    <div class="ok">MINH KHÔI TECH CMS</div>
+    <h1>Thiết lập trang quản trị</h1>
+    <p>Nhập repository GitHub đang liên kết với project Netlify. Chỉ cần làm một lần trên trình duyệt này.</p>
+    <div class="row"><label for="repo">GitHub repository</label><input id="repo" placeholder="username/minhkhoitech-site" autocomplete="off" /><div class="hint">Ví dụ: <b>nguyenvankha/minhkhoitech-site</b>. Không nhập https://github.com/.</div></div>
+    <div class="error" id="error">Định dạng phải là username/repository.</div>
+    <button id="save">Lưu và mở trang quản trị</button>
+    <p class="hint">Muốn đổi repository sau này: mở <b>/admin/?reset=1</b>.</p>
+  </div>
+  <script>
+    window.CMS_MANUAL_INIT = true;
+    const q = new URLSearchParams(location.search);
+    if(q.get('reset')==='1') localStorage.removeItem('mk_cms_repo');
+    if(q.get('repo')) localStorage.setItem('mk_cms_repo', q.get('repo'));
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/decap-cms@^3.8.0/dist/decap-cms.js"></script>
+  <script>
+    const setup=document.getElementById('repo-setup');
+    const input=document.getElementById('repo');
+    const error=document.getElementById('error');
+    const saved=localStorage.getItem('mk_cms_repo')||'';
+    input.value=saved;
+
+    const fields = [
+      {label:'SEO - Tiêu đề trang',name:'seo_title',widget:'string'},
+      {label:'SEO - Mô tả',name:'seo_description',widget:'text'},
+      {label:'Tên thương hiệu',name:'business_name',widget:'string'},
+      {label:'Dòng mô tả thương hiệu',name:'brand_tagline',widget:'string'},
+      {label:'Số điện thoại',name:'phone',widget:'string',hint:'Ví dụ 0901 234 567'},
+      {label:'Số Zalo',name:'zalo',widget:'string'},
+      {label:'Chữ nút Zalo trên menu',name:'zalo_button',widget:'string'},
+      {label:'Hero - Khu vực phục vụ',name:'hero_eyebrow',widget:'string'},
+      {label:'Hero - Tiêu đề dòng 1',name:'hero_title_1',widget:'string'},
+      {label:'Hero - Tiêu đề dòng 2',name:'hero_title_2',widget:'string'},
+      {label:'Hero - Nội dung',name:'hero_text',widget:'text'},
+      {label:'Hero - Câu nhấn mạnh',name:'hero_highlight',widget:'string'},
+      {label:'Hero - Chữ nút gọi',name:'hero_call_button',widget:'string'},
+      {label:'Hero - Chữ nút đặt lịch',name:'hero_form_button',widget:'string'},
+      {label:'Mobile - Nút gọi',name:'mobile_call_button',widget:'string'},
+      {label:'Mobile - Nút Zalo',name:'mobile_zalo_button',widget:'string'},
+      {label:'Form - Nút Zalo',name:'form_zalo_button',widget:'string'},
+      {label:'Hero - Hình/logo',name:'hero_image',widget:'image',required:false},
+      {label:'Thẻ nổi - Tiêu đề',name:'floating_title',widget:'string'},
+      {label:'Thẻ nổi - Mô tả',name:'floating_subtitle',widget:'string'},
+      {label:'Điểm nổi bật dưới Hero',name:'hero_points',widget:'list',fields:[{label:'Nội dung',name:'text',widget:'string'}]},
+      {label:'4 ô dịch vụ nhanh',name:'trust_cards',widget:'list',fields:[{label:'Tiêu đề',name:'title',widget:'string'},{label:'Mô tả',name:'text',widget:'string'}]},
+      {label:'Vấn đề - Kicker',name:'problem_kicker',widget:'string'},
+      {label:'Vấn đề - Tiêu đề',name:'problem_title',widget:'string'},
+      {label:'Vấn đề - Mô tả',name:'problem_intro',widget:'text'},
+      {label:'Danh sách vấn đề',name:'problems',widget:'list',fields:[{label:'Icon/ký hiệu',name:'icon',widget:'string'},{label:'Tiêu đề',name:'title',widget:'string'},{label:'Mô tả',name:'text',widget:'text'}]},
+      {label:'Bảng giá - Kicker',name:'price_kicker',widget:'string'},
+      {label:'Bảng giá - Tiêu đề',name:'price_title',widget:'string'},
+      {label:'Bảng giá - Mô tả',name:'price_intro',widget:'text'},
+      {label:'Các gói giá',name:'prices',widget:'list',summary:'{{fields.title}} - {{fields.amount}}',fields:[
+        {label:'Tên gói',name:'title',widget:'string'},{label:'Giá hiển thị',name:'amount',widget:'string'},{label:'Hậu tố giá',name:'suffix',widget:'string',required:false},{label:'Nổi bật',name:'featured',widget:'boolean',default:false},{label:'Nhãn',name:'badge',widget:'string',required:false},{label:'Chi tiết',name:'bullets',widget:'list',fields:[{label:'Dòng',name:'text',widget:'string'}]}
+      ]},
+      {label:'Ghi chú bảng giá',name:'price_note',widget:'text'},
+      {label:'Quy trình - Kicker',name:'process_kicker',widget:'string'},
+      {label:'Quy trình - Tiêu đề',name:'process_title',widget:'string'},
+      {label:'Các bước',name:'process_steps',widget:'list',fields:[{label:'Tiêu đề',name:'title',widget:'string'},{label:'Mô tả',name:'text',widget:'text'}]},
+      {label:'Lead - Kicker',name:'lead_kicker',widget:'string'},
+      {label:'Lead - Tiêu đề',name:'lead_title',widget:'string'},
+      {label:'Lead - Mô tả',name:'lead_intro',widget:'text'},
+      {label:'Lợi ích',name:'benefits',widget:'list',fields:[{label:'Tiêu đề',name:'title',widget:'string'},{label:'Mô tả',name:'text',widget:'string'}]},
+      {label:'Khu vực trong form',name:'area_options',widget:'list',fields:[{label:'Khu vực',name:'text',widget:'string'}]},
+      {label:'Nhu cầu trong form',name:'need_options',widget:'list',fields:[{label:'Nhu cầu',name:'text',widget:'string'}]},
+      {label:'Thông báo bảo mật form',name:'form_privacy',widget:'text'},
+      {label:'Form endpoint / Google Apps Script',name:'form_endpoint',widget:'string',required:false,hint:'Để trống nếu chưa nối Google Sheets.'},
+      {label:'FAQ - Kicker',name:'faq_kicker',widget:'string'},
+      {label:'FAQ - Tiêu đề',name:'faq_title',widget:'string'},
+      {label:'Câu hỏi thường gặp',name:'faqs',widget:'list',fields:[{label:'Câu hỏi',name:'question',widget:'string'},{label:'Trả lời',name:'answer',widget:'text'}]},
+      {label:'Footer - Tên',name:'footer_business',widget:'string'},
+      {label:'Footer - Khu vực',name:'footer_area',widget:'string'},
+      {label:'Footer - Ghi chú',name:'footer_note',widget:'string'},
+      {label:'Google Tag Manager ID',name:'gtm_id',widget:'string',required:false,hint:'Ví dụ GTM-XXXXXXX. Có thể để trống.'}
+    ];
+
+    function start(repo){
+      if(!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repo)){ error.style.display='block'; return; }
+      localStorage.setItem('mk_cms_repo',repo); setup.style.display='none';
+      window.initCMS({config:{
+        load_config_file:false,
+        backend:{name:'github',repo:repo,branch:'main',base_url:'https://api.netlify.com',auth_endpoint:'auth'},
+        site_url:'https://minhkhoitech.vn',display_url:'https://minhkhoitech.vn',
+        media_folder:'assets/uploads',public_folder:'/assets/uploads',
+        publish_mode:'simple',
+        logo:{src:'https://minhkhoitech.vn/assets/logo-minh-khoi.png',show_in_header:true},
+        collections:[{name:'site',label:'Website Minh Khôi',files:[{name:'home',label:'Nội dung Landing Page',file:'content/site.json',format:'json',fields:fields}]}]
+      }});
+    }
+    document.getElementById('save').addEventListener('click',()=>start(input.value.trim()));
+    if(saved) start(saved);
+  </script>
+</body>
+</html>
