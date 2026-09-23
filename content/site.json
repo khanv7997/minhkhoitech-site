@@ -1,24 +1,12 @@
 {
-  "seo_title": "Minh Khôi Camera & Mạng | Kiểm tra tận nơi Tân Phú",
-  "seo_description": "Camera mất hình, không xem được từ xa, Wi-Fi yếu? Minh Khôi kiểm tra camera & mạng tận nơi khu vực Tân Phú, Tây Thạnh và lân cận. Khảo sát miễn phí, báo giá trước khi làm.",
-  "business_name": "MINH KHÔI",
-  "brand_tagline": "CAMERA · MẠNG · CÔNG NGHỆ",
-  "phone": "0901 234 567",
-  "zalo": "0901 234 567",
-  "zalo_button": "Chat Zalo",
+  "price_title": "Chọn cách xử lý phù hợp hiện trạng",
+  "process_kicker": "Quy trình 4 bước",
   "hero_eyebrow": "Phục vụ Tân Phú · Tây Thạnh · khu vực lân cận",
+  "footer_business": "MINH KHÔI CAMERA & MẠNG",
   "hero_title_1": "Camera mất hình?",
   "hero_title_2": "Wi‑Fi yếu, chập chờn?",
-  "hero_text": "Minh Khôi kiểm tra camera & mạng tận nơi. Nhận hệ thống đang sử dụng, xử lý lỗi, tối ưu và bảo trì định kỳ.",
-  "hero_highlight": "Khảo sát miễn phí – báo giá trước khi làm.",
-  "hero_call_button": "☎ Gọi kiểm tra ngay",
-  "hero_form_button": "Đặt lịch khảo sát",
-  "mobile_call_button": "☎ Gọi ngay",
-  "mobile_zalo_button": "Zalo",
-  "form_zalo_button": "Gửi qua Zalo",
-  "hero_image": "/assets/logo-minh-khoi.png",
-  "floating_title": "Khảo sát miễn phí",
-  "floating_subtitle": "Kiểm tra hiện trạng trước khi báo giá",
+  "zalo_button": "Chat Zalo",
+  "process_title": "Từ liên hệ đến xử lý, ngắn gọn và rõ chi phí",
   "hero_points": [
     {
       "text": "Không ép thay mới"
@@ -30,52 +18,10 @@
       "text": "Có gói bảo trì tháng"
     }
   ],
-  "trust_cards": [
-    {
-      "title": "Camera",
-      "text": "Mất hình · offline · không xem từ xa"
-    },
-    {
-      "title": "Mạng / Wi‑Fi",
-      "text": "Yếu sóng · chập chờn · nhiều tầng/phòng"
-    },
-    {
-      "title": "Hệ thống cũ",
-      "text": "Nhận kiểm tra, tinh chỉnh và bảo trì"
-    },
-    {
-      "title": "Combo",
-      "text": "Camera + mạng cho nhà, shop, văn phòng nhỏ"
-    }
-  ],
-  "problem_kicker": "Đúng vấn đề – xử lý đúng chỗ",
-  "problem_title": "Các tình trạng Minh Khôi nhận kiểm tra",
-  "problem_intro": "Ưu tiên kiểm tra hệ thống hiện tại trước, chỉ đề xuất thay thiết bị khi thực sự cần.",
-  "problems": [
-    {
-      "icon": "◉",
-      "title": "Camera mất hình",
-      "text": "Một hoặc nhiều mắt camera không lên hình, chập chờn hoặc thường xuyên offline."
-    },
-    {
-      "icon": "▣",
-      "title": "Không xem từ xa",
-      "text": "Điện thoại không xem được camera, app báo lỗi hoặc mất kết nối ngoài mạng."
-    },
-    {
-      "icon": "⌁",
-      "title": "Wi‑Fi yếu",
-      "text": "Sóng yếu, đổi tầng mất mạng, camera Wi‑Fi hay rớt kết nối."
-    },
-    {
-      "icon": "⚙",
-      "title": "Hệ thống cần bảo trì",
-      "text": "Cần kiểm tra định kỳ, tối ưu đầu ghi, mạng, lưu trữ và kết nối thiết bị."
-    }
-  ],
+  "price_note": "* Giá tham khảo theo bảng tư vấn hiện tại; chi phí cuối cùng phụ thuộc thiết bị, hiện trạng đường dây, vị trí và phạm vi công việc.",
+  "hero_form_button": "Đặt lịch khảo sát",
   "price_kicker": "Chi phí tham khảo",
-  "price_title": "Chọn cách xử lý phù hợp hiện trạng",
-  "price_intro": "Giá dưới đây dùng để định hướng. Minh Khôi khảo sát hiện trạng trước khi chốt báo giá chính thức.",
+  "lead_intro": "Điền 30 giây. Nếu chưa muốn điền form, có thể gọi hoặc nhắn Zalo trực tiếp.",
   "prices": [
     {
       "title": "Hệ thống camera đã có sẵn",
@@ -141,44 +87,10 @@
       ]
     }
   ],
-  "price_note": "* Giá tham khảo theo bảng tư vấn hiện tại; chi phí cuối cùng phụ thuộc thiết bị, hiện trạng đường dây, vị trí và phạm vi công việc.",
-  "process_kicker": "Quy trình 4 bước",
-  "process_title": "Từ liên hệ đến xử lý, ngắn gọn và rõ chi phí",
-  "process_steps": [
-    {
-      "title": "Gửi tình trạng",
-      "text": "Cho biết khu vực, số camera hoặc tình trạng mạng đang gặp."
-    },
-    {
-      "title": "Kiểm tra sơ bộ",
-      "text": "Trao đổi qua điện thoại/Zalo, có thể gửi ảnh hoặc video lỗi."
-    },
-    {
-      "title": "Khảo sát tận nơi",
-      "text": "Kiểm tra hiện trạng thực tế và đề xuất phương án phù hợp."
-    },
-    {
-      "title": "Báo giá rồi mới làm",
-      "text": "Chỉ triển khai sau khi khách đồng ý phương án và chi phí."
-    }
-  ],
-  "lead_kicker": "Đặt lịch kiểm tra",
-  "lead_title": "Cho Minh Khôi biết vấn đề của bạn",
-  "lead_intro": "Điền 30 giây. Nếu chưa muốn điền form, có thể gọi hoặc nhắn Zalo trực tiếp.",
-  "benefits": [
-    {
-      "title": "Khảo sát miễn phí",
-      "text": "Kiểm tra hiện trạng trước khi chốt phương án."
-    },
-    {
-      "title": "Phù hợp cả hệ thống cũ",
-      "text": "Không bắt buộc mua camera hay router mới."
-    },
-    {
-      "title": "Có bảo trì định kỳ",
-      "text": "Phù hợp shop, cửa hàng và văn phòng cần người theo dõi hệ thống."
-    }
-  ],
+  "mobile_zalo_button": "Zalo",
+  "zalo": "0379 389 602",
+  "business_name": "MINH KHÔI",
+  "problem_intro": "Ưu tiên kiểm tra hệ thống hiện tại trước, chỉ đề xuất thay thiết bị khi thực sự cần.",
   "area_options": [
     {
       "text": "Tân Phú"
@@ -202,6 +114,40 @@
       "text": "Khu vực khác"
     }
   ],
+  "form_zalo_button": "Gửi qua Zalo",
+  "form_privacy": "Thông tin chỉ dùng để liên hệ tư vấn và khảo sát dịch vụ. Có thể kết nối Google Sheets / CRM bằng endpoint trong trang quản trị.",
+  "phone": "0379 389 602",
+  "hero_call_button": "☎ Gọi kiểm tra ngay",
+  "hero_highlight": "Khảo sát miễn phí – báo giá trước khi làm.",
+  "faq_title": "Trước khi đặt lịch",
+  "form_endpoint": "",
+  "floating_subtitle": "Kiểm tra hiện trạng trước khi báo giá",
+  "footer_area": "Tân Phú · Tây Thạnh & khu vực lân cận",
+  "hero_text": "Minh Khôi kiểm tra camera & mạng tận nơi. Nhận hệ thống đang sử dụng, xử lý lỗi, tối ưu và bảo trì định kỳ.",
+  "problem_kicker": "Đúng vấn đề – xử lý đúng chỗ",
+  "problems": [
+    {
+      "icon": "◉",
+      "title": "Camera mất hình",
+      "text": "Một hoặc nhiều mắt camera không lên hình, chập chờn hoặc thường xuyên offline."
+    },
+    {
+      "icon": "▣",
+      "title": "Không xem từ xa",
+      "text": "Điện thoại không xem được camera, app báo lỗi hoặc mất kết nối ngoài mạng."
+    },
+    {
+      "icon": "⌁",
+      "title": "Wi‑Fi yếu",
+      "text": "Sóng yếu, đổi tầng mất mạng, camera Wi‑Fi hay rớt kết nối."
+    },
+    {
+      "icon": "⚙",
+      "title": "Hệ thống cần bảo trì",
+      "text": "Cần kiểm tra định kỳ, tối ưu đầu ghi, mạng, lưu trữ và kết nối thiết bị."
+    }
+  ],
+  "lead_title": "Cho Minh Khôi biết vấn đề của bạn",
   "need_options": [
     {
       "text": "Camera đang bị lỗi"
@@ -219,10 +165,67 @@
       "text": "Camera + mạng"
     }
   ],
-  "form_privacy": "Thông tin chỉ dùng để liên hệ tư vấn và khảo sát dịch vụ. Có thể kết nối Google Sheets / CRM bằng endpoint trong trang quản trị.",
-  "form_endpoint": "",
+  "mobile_call_button": "☎ Gọi ngay",
+  "footer_note": "Landing page tối ưu cho quảng cáo địa phương",
+  "hero_image": "/assets/logo-minh-khoi.png",
+  "brand_tagline": "CAMERA · MẠNG · CÔNG NGHỆ",
+  "lead_kicker": "Đặt lịch kiểm tra",
+  "price_intro": "Giá dưới đây dùng để định hướng. Minh Khôi khảo sát hiện trạng trước khi chốt báo giá chính thức.",
+  "seo_title": "Minh Khôi Camera & Mạng | Kiểm tra tận nơi Tân Phú",
+  "process_steps": [
+    {
+      "title": "Gửi tình trạng",
+      "text": "Cho biết khu vực, số camera hoặc tình trạng mạng đang gặp."
+    },
+    {
+      "title": "Kiểm tra sơ bộ",
+      "text": "Trao đổi qua điện thoại/Zalo, có thể gửi ảnh hoặc video lỗi."
+    },
+    {
+      "title": "Khảo sát tận nơi",
+      "text": "Kiểm tra hiện trạng thực tế và đề xuất phương án phù hợp."
+    },
+    {
+      "title": "Báo giá rồi mới làm",
+      "text": "Chỉ triển khai sau khi khách đồng ý phương án và chi phí."
+    }
+  ],
+  "problem_title": "Các tình trạng Minh Khôi nhận kiểm tra",
+  "gtm_id": "",
+  "seo_description": "Camera mất hình, không xem được từ xa, Wi-Fi yếu? Minh Khôi kiểm tra camera & mạng tận nơi khu vực Tân Phú, Tây Thạnh và lân cận. Khảo sát miễn phí, báo giá trước khi làm.",
   "faq_kicker": "Câu hỏi thường gặp",
-  "faq_title": "Trước khi đặt lịch",
+  "benefits": [
+    {
+      "title": "Khảo sát miễn phí",
+      "text": "Kiểm tra hiện trạng trước khi chốt phương án."
+    },
+    {
+      "title": "Phù hợp cả hệ thống cũ",
+      "text": "Không bắt buộc mua camera hay router mới."
+    },
+    {
+      "title": "Có bảo trì định kỳ",
+      "text": "Phù hợp shop, cửa hàng và văn phòng cần người theo dõi hệ thống."
+    }
+  ],
+  "trust_cards": [
+    {
+      "title": "Camera",
+      "text": "Mất hình · offline · không xem từ xa"
+    },
+    {
+      "title": "Mạng / Wi‑Fi",
+      "text": "Yếu sóng · chập chờn · nhiều tầng/phòng"
+    },
+    {
+      "title": "Hệ thống cũ",
+      "text": "Nhận kiểm tra, tinh chỉnh và bảo trì"
+    },
+    {
+      "title": "Combo",
+      "text": "Camera + mạng cho nhà, shop, văn phòng nhỏ"
+    }
+  ],
   "faqs": [
     {
       "question": "Camera cũ có nhận sửa và bảo trì không?",
@@ -241,8 +244,5 @@
       "answer": "Sau khi kiểm tra hiện trạng. Minh Khôi khảo sát miễn phí và báo giá trước khi thực hiện."
     }
   ],
-  "footer_business": "MINH KHÔI CAMERA & MẠNG",
-  "footer_area": "Tân Phú · Tây Thạnh & khu vực lân cận",
-  "footer_note": "Landing page tối ưu cho quảng cáo địa phương",
-  "gtm_id": ""
+  "floating_title": "Khảo sát miễn phí"
 }
