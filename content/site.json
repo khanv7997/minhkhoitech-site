@@ -1,24 +1,28 @@
 {
-  "seo_title": "Minh Khôi Camera, Mạng & IT Helpdesk | Tân Phú",
-  "seo_description": "Minh Khôi hỗ trợ camera, mạng Wi‑Fi và IT Helpdesk từ xa theo tháng cho nhà ở, cửa hàng và doanh nghiệp nhỏ tại Tân Phú, Tây Thạnh và lân cận.",
-  "business_name": "MINH KHÔI",
-  "brand_tagline": "CAMERA · MẠNG · CÔNG NGHỆ",
-  "phone": "0901 234 567",
-  "zalo": "0901 234 567",
-  "zalo_button": "Chat Zalo",
+  "helpdesk_facts": [
+    {
+      "label": "Phản hồi",
+      "value": "Trong vòng 2 giờ"
+    },
+    {
+      "label": "Hình thức",
+      "value": "Remote trong giờ hành chính"
+    },
+    {
+      "label": "Onsite",
+      "value": "Không bao gồm · báo phí riêng"
+    }
+  ],
+  "price_title": "Chọn cách xử lý phù hợp hiện trạng",
+  "process_kicker": "Quy trình 4 bước",
   "hero_eyebrow": "Phục vụ Tân Phú · Tây Thạnh · khu vực lân cận",
+  "footer_business": "MINH KHÔI CAMERA & MẠNG",
+  "helpdesk_price": "2.000.000đ",
   "hero_title_1": "Camera mất hình?",
   "hero_title_2": "Wi‑Fi yếu, chập chờn?",
-  "hero_text": "Minh Khôi kiểm tra camera & mạng tận nơi. Nhận hệ thống đang sử dụng, xử lý lỗi, tối ưu và bảo trì định kỳ.",
-  "hero_highlight": "Khảo sát miễn phí – báo giá trước khi làm.",
-  "hero_call_button": "☎ Gọi kiểm tra ngay",
-  "hero_form_button": "Đặt lịch khảo sát",
-  "mobile_call_button": "☎ Gọi ngay",
-  "mobile_zalo_button": "Zalo",
-  "form_zalo_button": "Gửi qua Zalo",
-  "hero_image": "/assets/logo-minh-khoi.png",
-  "floating_title": "Khảo sát miễn phí",
-  "floating_subtitle": "Kiểm tra hiện trạng trước khi báo giá",
+  "zalo_button": "Chat Zalo",
+  "helpdesk_intro": "Phù hợp doanh nghiệp nhỏ khoảng 10 máy tính cần một đầu mối xử lý các sự cố IT hằng ngày. Tiếp nhận yêu cầu trong giờ hành chính, phản hồi và bắt đầu xử lý từ xa trong vòng 2 giờ.",
+  "process_title": "Từ liên hệ đến xử lý, ngắn gọn và rõ chi phí",
   "hero_points": [
     {
       "text": "Không ép thay mới"
@@ -33,56 +37,10 @@
       "text": "Có IT Helpdesk từ xa theo tháng"
     }
   ],
-  "trust_cards": [
-    {
-      "title": "Camera",
-      "text": "Mất hình · offline · không xem từ xa"
-    },
-    {
-      "title": "Mạng / Wi‑Fi",
-      "text": "Yếu sóng · chập chờn · nhiều tầng/phòng"
-    },
-    {
-      "title": "Hệ thống cũ",
-      "text": "Nhận kiểm tra, tinh chỉnh và bảo trì"
-    },
-    {
-      "title": "Combo",
-      "text": "Camera + mạng cho nhà, shop, văn phòng nhỏ"
-    },
-    {
-      "title": "IT Helpdesk từ xa",
-      "text": "Windows · Office · email · máy in · mạng cơ bản · hỗ trợ người dùng"
-    }
-  ],
-  "problem_kicker": "Đúng vấn đề – xử lý đúng chỗ",
-  "problem_title": "Các tình trạng Minh Khôi nhận kiểm tra",
-  "problem_intro": "Ưu tiên kiểm tra hệ thống hiện tại trước, chỉ đề xuất thay thiết bị khi thực sự cần.",
-  "problems": [
-    {
-      "icon": "◉",
-      "title": "Camera mất hình",
-      "text": "Một hoặc nhiều mắt camera không lên hình, chập chờn hoặc thường xuyên offline."
-    },
-    {
-      "icon": "▣",
-      "title": "Không xem từ xa",
-      "text": "Điện thoại không xem được camera, app báo lỗi hoặc mất kết nối ngoài mạng."
-    },
-    {
-      "icon": "⌁",
-      "title": "Wi‑Fi yếu",
-      "text": "Sóng yếu, đổi tầng mất mạng, camera Wi‑Fi hay rớt kết nối."
-    },
-    {
-      "icon": "⚙",
-      "title": "Hệ thống cần bảo trì",
-      "text": "Cần kiểm tra định kỳ, tối ưu đầu ghi, mạng, lưu trữ và kết nối thiết bị."
-    }
-  ],
+  "price_note": "* Giá tham khảo theo bảng tư vấn hiện tại; chi phí cuối cùng phụ thuộc thiết bị, hiện trạng đường dây, vị trí và phạm vi công việc.",
+  "hero_form_button": "Đặt lịch khảo sát",
   "price_kicker": "Chi phí tham khảo",
-  "price_title": "Chọn cách xử lý phù hợp hiện trạng",
-  "price_intro": "Giá dưới đây dùng để định hướng. Minh Khôi khảo sát hiện trạng trước khi chốt báo giá chính thức.",
+  "lead_intro": "Điền 30 giây. Nếu chưa muốn điền form, có thể gọi hoặc nhắn Zalo trực tiếp.",
   "prices": [
     {
       "title": "Hệ thống camera đã có sẵn",
@@ -169,48 +127,10 @@
       ]
     }
   ],
-  "price_note": "* Giá tham khảo theo bảng tư vấn hiện tại; chi phí cuối cùng phụ thuộc thiết bị, hiện trạng đường dây, vị trí và phạm vi công việc.",
-  "process_kicker": "Quy trình 4 bước",
-  "process_title": "Từ liên hệ đến xử lý, ngắn gọn và rõ chi phí",
-  "process_steps": [
-    {
-      "title": "Gửi tình trạng",
-      "text": "Cho biết khu vực, số camera hoặc tình trạng mạng đang gặp."
-    },
-    {
-      "title": "Kiểm tra sơ bộ",
-      "text": "Trao đổi qua điện thoại/Zalo, có thể gửi ảnh hoặc video lỗi."
-    },
-    {
-      "title": "Khảo sát tận nơi",
-      "text": "Kiểm tra hiện trạng thực tế và đề xuất phương án phù hợp."
-    },
-    {
-      "title": "Báo giá rồi mới làm",
-      "text": "Chỉ triển khai sau khi khách đồng ý phương án và chi phí."
-    }
-  ],
-  "lead_kicker": "Đặt lịch kiểm tra",
-  "lead_title": "Cho Minh Khôi biết vấn đề của bạn",
-  "lead_intro": "Điền 30 giây. Nếu chưa muốn điền form, có thể gọi hoặc nhắn Zalo trực tiếp.",
-  "benefits": [
-    {
-      "title": "Khảo sát miễn phí",
-      "text": "Kiểm tra hiện trạng trước khi chốt phương án."
-    },
-    {
-      "title": "Phù hợp cả hệ thống cũ",
-      "text": "Không bắt buộc mua camera hay router mới."
-    },
-    {
-      "title": "Có bảo trì định kỳ",
-      "text": "Phù hợp shop, cửa hàng và văn phòng cần người theo dõi hệ thống."
-    },
-    {
-      "title": "Có Helpdesk từ xa",
-      "text": "Doanh nghiệp nhỏ có đầu mối IT hỗ trợ hàng tháng mà không cần IT onsite cố định."
-    }
-  ],
+  "mobile_zalo_button": "Zalo",
+  "zalo": "0979 29 3767",
+  "business_name": "MINH KHÔI",
+  "problem_intro": "Ưu tiên kiểm tra hệ thống hiện tại trước, chỉ đề xuất thay thiết bị khi thực sự cần.",
   "area_options": [
     {
       "text": "Tân Phú"
@@ -234,6 +154,45 @@
       "text": "Khu vực khác"
     }
   ],
+  "helpdesk_price_suffix": "/tháng",
+  "form_zalo_button": "Gửi qua Zalo",
+  "form_privacy": "Thông tin chỉ dùng để liên hệ tư vấn và khảo sát dịch vụ. Có thể kết nối Google Sheets / CRM bằng endpoint trong trang quản trị.",
+  "phone": "0979 29 3767",
+  "hero_call_button": "☎ Gọi kiểm tra ngay",
+  "blog_button": "Xem tất cả bài viết",
+  "hero_highlight": "Khảo sát miễn phí – báo giá trước khi làm.",
+  "blog_intro": "Chia sẻ cách xử lý các lỗi camera, mạng Wi‑Fi và cập nhật công trình thực tế.",
+  "faq_title": "Trước khi đặt lịch",
+  "blog_kicker": "Kiến thức & công trình",
+  "form_endpoint": "",
+  "floating_subtitle": "Kiểm tra hiện trạng trước khi báo giá",
+  "footer_area": "Tân Phú · Tây Thạnh & khu vực lân cận",
+  "hero_text": "Minh Khôi kiểm tra camera & mạng tận nơi. Nhận hệ thống đang sử dụng, xử lý lỗi, tối ưu và bảo trì định kỳ.",
+  "problem_kicker": "Đúng vấn đề – xử lý đúng chỗ",
+  "helpdesk_title": "Có IT hỗ trợ từ xa mỗi tháng, không cần tuyển IT riêng",
+  "problems": [
+    {
+      "icon": "◉",
+      "title": "Camera mất hình",
+      "text": "Một hoặc nhiều mắt camera không lên hình, chập chờn hoặc thường xuyên offline."
+    },
+    {
+      "icon": "▣",
+      "title": "Không xem từ xa",
+      "text": "Điện thoại không xem được camera, app báo lỗi hoặc mất kết nối ngoài mạng."
+    },
+    {
+      "icon": "⌁",
+      "title": "Wi‑Fi yếu",
+      "text": "Sóng yếu, đổi tầng mất mạng, camera Wi‑Fi hay rớt kết nối."
+    },
+    {
+      "icon": "⚙",
+      "title": "Hệ thống cần bảo trì",
+      "text": "Cần kiểm tra định kỳ, tối ưu đầu ghi, mạng, lưu trữ và kết nối thiết bị."
+    }
+  ],
+  "lead_title": "Cho Minh Khôi biết vấn đề của bạn",
   "need_options": [
     {
       "text": "Camera đang bị lỗi"
@@ -254,60 +213,36 @@
       "text": "IT Helpdesk từ xa theo tháng"
     }
   ],
-  "form_privacy": "Thông tin chỉ dùng để liên hệ tư vấn và khảo sát dịch vụ. Có thể kết nối Google Sheets / CRM bằng endpoint trong trang quản trị.",
-  "form_endpoint": "",
-  "faq_kicker": "Câu hỏi thường gặp",
-  "faq_title": "Trước khi đặt lịch",
-  "faqs": [
-    {
-      "question": "Camera cũ có nhận sửa và bảo trì không?",
-      "answer": "Có. Minh Khôi có mô hình dành cho khách đã có camera, tính phí tinh chỉnh ban đầu và phí bảo trì theo quy mô."
-    },
-    {
-      "question": "Wi‑Fi đang dùng hãng khác có nhận không?",
-      "answer": "Có. Gói mạng hiện tại không phụ thuộc hãng thiết bị khách đang dùng; chi phí tính theo quy mô và công sức giám sát."
-    },
-    {
-      "question": "Có bắt buộc thuê thiết bị theo tháng không?",
-      "answer": "Không. Khách có thể dùng mô hình bảo trì hệ thống hiện có hoặc chọn thuê thiết bị nếu hệ thống cũ không còn phù hợp."
-    },
-    {
-      "question": "Khi nào biết giá chính xác?",
-      "answer": "Sau khi kiểm tra hiện trạng. Minh Khôi khảo sát miễn phí và báo giá trước khi thực hiện."
-    },
-    {
-      "question": "Gói IT Helpdesk từ xa 2 triệu/tháng bao gồm những gì?",
-      "answer": "Gói áp dụng khoảng 10 máy tính, hỗ trợ từ xa trong giờ hành chính với thời gian phản hồi và bắt đầu xử lý trong vòng 2 giờ. Phạm vi gồm Windows, Office, email, máy in/scan, mạng/Wi‑Fi và camera ở mức cơ bản. Công việc cần onsite, vật tư, thiết bị, phần mềm bản quyền hoặc sửa phần cứng sẽ báo phí riêng."
-    }
-  ],
-  "footer_business": "MINH KHÔI CAMERA & MẠNG",
-  "footer_area": "Tân Phú · Tây Thạnh & khu vực lân cận",
+  "mobile_call_button": "☎ Gọi ngay",
   "footer_note": "Landing page tối ưu cho quảng cáo địa phương",
-  "gtm_id": "",
-  "blog_kicker": "Kiến thức & công trình",
-  "blog_title": "Bài viết mới từ Minh Khôi",
-  "blog_intro": "Chia sẻ cách xử lý các lỗi camera, mạng Wi‑Fi và cập nhật công trình thực tế.",
-  "blog_button": "Xem tất cả bài viết",
-  "helpdesk_kicker": "IT HELPDESK TỪ XA",
-  "helpdesk_title": "Có IT hỗ trợ từ xa mỗi tháng, không cần tuyển IT riêng",
-  "helpdesk_intro": "Phù hợp doanh nghiệp nhỏ khoảng 10 máy tính cần một đầu mối xử lý các sự cố IT hằng ngày. Tiếp nhận yêu cầu trong giờ hành chính, phản hồi và bắt đầu xử lý từ xa trong vòng 2 giờ.",
-  "helpdesk_price": "2.000.000đ",
-  "helpdesk_price_suffix": "/tháng",
-  "helpdesk_badge": "Gói Remote · khoảng 10 máy",
-  "helpdesk_facts": [
+  "hero_image": "/assets/logo-minh-khoi.png",
+  "brand_tagline": "CAMERA · MẠNG · CÔNG NGHỆ",
+  "lead_kicker": "Đặt lịch kiểm tra",
+  "price_intro": "Giá dưới đây dùng để định hướng. Minh Khôi khảo sát hiện trạng trước khi chốt báo giá chính thức.",
+  "seo_title": "Minh Khôi Camera, Mạng & IT Helpdesk | Tân Phú",
+  "process_steps": [
     {
-      "label": "Phản hồi",
-      "value": "Trong vòng 2 giờ"
+      "title": "Gửi tình trạng",
+      "text": "Cho biết khu vực, số camera hoặc tình trạng mạng đang gặp."
     },
     {
-      "label": "Hình thức",
-      "value": "Remote trong giờ hành chính"
+      "title": "Kiểm tra sơ bộ",
+      "text": "Trao đổi qua điện thoại/Zalo, có thể gửi ảnh hoặc video lỗi."
     },
     {
-      "label": "Onsite",
-      "value": "Không bao gồm · báo phí riêng"
+      "title": "Khảo sát tận nơi",
+      "text": "Kiểm tra hiện trạng thực tế và đề xuất phương án phù hợp."
+    },
+    {
+      "title": "Báo giá rồi mới làm",
+      "text": "Chỉ triển khai sau khi khách đồng ý phương án và chi phí."
     }
   ],
+  "helpdesk_note": "Không bao gồm vật tư, thiết bị, phần mềm bản quyền, đi dây, lắp thiết bị mới, sửa chữa phần cứng hoặc các công việc bắt buộc phải có mặt tại chỗ. Các hạng mục onsite sẽ được báo phí riêng trước khi thực hiện.",
+  "problem_title": "Các tình trạng Minh Khôi nhận kiểm tra",
+  "helpdesk_kicker": "IT HELPDESK TỪ XA",
+  "gtm_id": "",
+  "seo_description": "Minh Khôi hỗ trợ camera, mạng Wi‑Fi và IT Helpdesk từ xa theo tháng cho nhà ở, cửa hàng và doanh nghiệp nhỏ tại Tân Phú, Tây Thạnh và lân cận.",
   "helpdesk_items": [
     {
       "title": "Máy tính & phần mềm",
@@ -334,5 +269,70 @@
       "text": "Tư vấn nâng cấp thiết bị, phần mềm và phương án xử lý khi phát sinh sự cố."
     }
   ],
-  "helpdesk_note": "Không bao gồm vật tư, thiết bị, phần mềm bản quyền, đi dây, lắp thiết bị mới, sửa chữa phần cứng hoặc các công việc bắt buộc phải có mặt tại chỗ. Các hạng mục onsite sẽ được báo phí riêng trước khi thực hiện."
+  "blog_title": "Bài viết mới từ Minh Khôi",
+  "faq_kicker": "Câu hỏi thường gặp",
+  "benefits": [
+    {
+      "title": "Khảo sát miễn phí",
+      "text": "Kiểm tra hiện trạng trước khi chốt phương án."
+    },
+    {
+      "title": "Phù hợp cả hệ thống cũ",
+      "text": "Không bắt buộc mua camera hay router mới."
+    },
+    {
+      "title": "Có bảo trì định kỳ",
+      "text": "Phù hợp shop, cửa hàng và văn phòng cần người theo dõi hệ thống."
+    },
+    {
+      "title": "Có Helpdesk từ xa",
+      "text": "Doanh nghiệp nhỏ có đầu mối IT hỗ trợ hàng tháng mà không cần IT onsite cố định."
+    }
+  ],
+  "trust_cards": [
+    {
+      "title": "Camera",
+      "text": "Mất hình · offline · không xem từ xa"
+    },
+    {
+      "title": "Mạng / Wi‑Fi",
+      "text": "Yếu sóng · chập chờn · nhiều tầng/phòng"
+    },
+    {
+      "title": "Hệ thống cũ",
+      "text": "Nhận kiểm tra, tinh chỉnh và bảo trì"
+    },
+    {
+      "title": "Combo",
+      "text": "Camera + mạng cho nhà, shop, văn phòng nhỏ"
+    },
+    {
+      "title": "IT Helpdesk từ xa",
+      "text": "Windows · Office · email · máy in · mạng cơ bản · hỗ trợ người dùng"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Camera cũ có nhận sửa và bảo trì không?",
+      "answer": "Có. Minh Khôi có mô hình dành cho khách đã có camera, tính phí tinh chỉnh ban đầu và phí bảo trì theo quy mô."
+    },
+    {
+      "question": "Wi‑Fi đang dùng hãng khác có nhận không?",
+      "answer": "Có. Gói mạng hiện tại không phụ thuộc hãng thiết bị khách đang dùng; chi phí tính theo quy mô và công sức giám sát."
+    },
+    {
+      "question": "Có bắt buộc thuê thiết bị theo tháng không?",
+      "answer": "Không. Khách có thể dùng mô hình bảo trì hệ thống hiện có hoặc chọn thuê thiết bị nếu hệ thống cũ không còn phù hợp."
+    },
+    {
+      "question": "Khi nào biết giá chính xác?",
+      "answer": "Sau khi kiểm tra hiện trạng. Minh Khôi khảo sát miễn phí và báo giá trước khi thực hiện."
+    },
+    {
+      "question": "Gói IT Helpdesk từ xa 2 triệu/tháng bao gồm những gì?",
+      "answer": "Gói áp dụng khoảng 10 máy tính, hỗ trợ từ xa trong giờ hành chính với thời gian phản hồi và bắt đầu xử lý trong vòng 2 giờ. Phạm vi gồm Windows, Office, email, máy in/scan, mạng/Wi‑Fi và camera ở mức cơ bản. Công việc cần onsite, vật tư, thiết bị, phần mềm bản quyền hoặc sửa phần cứng sẽ báo phí riêng."
+    }
+  ],
+  "helpdesk_badge": "Gói Remote · khoảng 10 máy",
+  "floating_title": "Khảo sát miễn phí"
 }
