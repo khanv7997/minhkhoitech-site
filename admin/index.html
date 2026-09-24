@@ -86,6 +86,10 @@
       {label:'Footer - Tên',name:'footer_business',widget:'string'},
       {label:'Footer - Khu vực',name:'footer_area',widget:'string'},
       {label:'Footer - Ghi chú',name:'footer_note',widget:'string'},
+      {label:'Bài viết - Kicker',name:'blog_kicker',widget:'string',required:false},
+      {label:'Bài viết - Tiêu đề',name:'blog_title',widget:'string',required:false},
+      {label:'Bài viết - Mô tả',name:'blog_intro',widget:'text',required:false},
+      {label:'Bài viết - Chữ nút xem tất cả',name:'blog_button',widget:'string',required:false},
       {label:'Google Tag Manager ID',name:'gtm_id',widget:'string',required:false,hint:'Ví dụ GTM-XXXXXXX. Có thể để trống.'}
     ];
 
@@ -99,7 +103,34 @@
         media_folder:'assets/uploads',public_folder:'/assets/uploads',
         publish_mode:'simple',
         logo:{src:'https://minhkhoitech.vn/assets/logo-minh-khoi.png',show_in_header:true},
-        collections:[{name:'site',label:'Website Minh Khôi',files:[{name:'home',label:'Nội dung Landing Page',file:'content/site.json',format:'json',fields:fields}]}]
+        collections:[
+          {name:'site',label:'Website Minh Khôi',files:[{name:'home',label:'Nội dung Landing Page',file:'content/site.json',format:'json',fields:fields}]},
+          {name:'blog',label:'Bài viết & hình ảnh',files:[{
+            name:'posts',label:'Quản lý bài viết',file:'content/posts.json',format:'json',fields:[{
+              label:'Danh sách bài viết',name:'posts',widget:'list',summary:'{{fields.title}} — {{fields.category}}',collapsed:true,
+              fields:[
+                {label:'Tiêu đề',name:'title',widget:'string'},
+                {label:'Slug URL',name:'slug',widget:'string',hint:'Ví dụ: sua-camera-tan-phu. Chỉ dùng chữ thường không dấu, số và dấu gạch ngang.'},
+                {label:'Danh mục',name:'category',widget:'select',options:['Kiến thức Camera','Mạng - WiFi','Hướng dẫn','Công trình thực tế','Khuyến mãi / Dịch vụ']},
+                {label:'Ngày đăng',name:'date',widget:'datetime',date_format:'DD/MM/YYYY',time_format:'HH:mm'},
+                {label:'Tác giả',name:'author',widget:'string',default:'Minh Khôi Tech'},
+                {label:'Mô tả ngắn',name:'excerpt',widget:'text'},
+                {label:'Ảnh đại diện',name:'cover_image',widget:'image',required:false},
+                {label:'ALT ảnh đại diện',name:'cover_alt',widget:'string',required:false,hint:'Mô tả ngắn nội dung ảnh để hỗ trợ SEO và trợ năng.'},
+                {label:'Nội dung bài',name:'content',widget:'markdown'},
+                {label:'Album ảnh',name:'gallery',widget:'list',required:false,summary:'{{fields.caption}}',fields:[
+                  {label:'Hình ảnh',name:'image',widget:'image'},
+                  {label:'Chú thích',name:'caption',widget:'string',required:false},
+                  {label:'ALT ảnh',name:'alt',widget:'string',required:false}
+                ]},
+                {label:'Bài nổi bật',name:'featured',widget:'boolean',default:false},
+                {label:'Đăng công khai',name:'published',widget:'boolean',default:true},
+                {label:'SEO Title',name:'seo_title',widget:'string',required:false},
+                {label:'Meta Description',name:'seo_description',widget:'text',required:false}
+              ]
+            }]
+          }]}
+        ]
       }});
     }
     document.getElementById('save').addEventListener('click',()=>start(input.value.trim()));

@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "title": "5 dấu hiệu hệ thống camera nên được kiểm tra sớm",
+      "slug": "5-dau-hieu-camera-can-kiem-tra",
+      "category": "Kiến thức Camera",
+      "date": "2026-09-24T07:30:00+07:00",
+      "author": "Minh Khôi Tech",
+      "excerpt": "Camera vẫn lên hình nhưng thường xuyên offline, xem từ xa chậm hoặc ổ cứng báo lỗi là những dấu hiệu nên kiểm tra trước khi hệ thống mất dữ liệu.",
+      "cover_image": "/assets/logo-minh-khoi.png",
+      "cover_alt": "Minh Khôi Camera và Mạng",
+      "featured": true,
+      "published": true,
+      "seo_title": "5 dấu hiệu camera cần kiểm tra | Minh Khôi Tech",
+      "seo_description": "Các dấu hiệu phổ biến cho thấy hệ thống camera cần được kiểm tra: mất kết nối, xem từ xa chậm, đầu ghi báo lỗi, hình ảnh không ổn định và lưu trữ bất thường.",
+      "content": "## 1. Camera thường xuyên offline\n\nNếu một hoặc nhiều camera liên tục mất kết nối rồi tự hoạt động lại, nên kiểm tra nguồn, dây mạng, switch PoE và chất lượng kết nối trước khi thay thiết bị.\n\n## 2. Xem từ xa chậm hoặc không ổn định\n\nTình trạng chỉ xem được khi dùng Wi‑Fi nhưng không xem được bằng 4G/5G có thể liên quan đến cấu hình mạng, dịch vụ cloud/P2P hoặc đường truyền Internet.\n\n## 3. Đầu ghi phát cảnh báo\n\nTiếng bíp, cảnh báo ổ cứng hoặc lỗi ghi hình cần được xử lý sớm để tránh thời điểm cần xem lại nhưng dữ liệu không còn.\n\n## 4. Hình ảnh chập chờn hoặc nhiễu\n\nNguồn điện, đầu nối, dây tín hiệu hoặc cổng PoE đều có thể gây hình ảnh không ổn định. Kiểm tra từng lớp giúp tránh thay camera không cần thiết.\n\n## 5. Thời gian lưu trữ ngắn bất thường\n\nNếu trước đây hệ thống lưu được nhiều ngày nhưng hiện chỉ còn rất ít, cần kiểm tra dung lượng ổ cứng, chế độ ghi và bitrate của camera.\n\n**Minh Khôi ưu tiên kiểm tra hệ thống hiện tại trước, sau đó mới đề xuất phương án sửa hoặc nâng cấp phù hợp.**",
+      "gallery": []
+    },
+    {
+      "title": "Wi‑Fi chập chờn trong nhà hoặc cửa hàng: nên kiểm tra từ đâu?",
+      "slug": "wifi-chap-chon-nen-kiem-tra-tu-dau",
+      "category": "Mạng - WiFi",
+      "date": "2026-09-24T07:20:00+07:00",
+      "author": "Minh Khôi Tech",
+      "excerpt": "Wi‑Fi yếu không phải lúc nào cũng do gói Internet. Vị trí Access Point, nhiễu sóng, số lượng thiết bị và hệ thống dây mạng đều có thể ảnh hưởng.",
+      "cover_image": "/assets/logo-minh-khoi.png",
+      "cover_alt": "Giải pháp mạng WiFi Minh Khôi Tech",
+      "featured": false,
+      "published": true,
+      "seo_title": "Wi-Fi chập chờn nên kiểm tra gì? | Minh Khôi Tech",
+      "seo_description": "Các bước kiểm tra cơ bản khi Wi-Fi yếu hoặc chập chờn tại nhà, shop và văn phòng nhỏ.",
+      "content": "## Đừng vội tăng gói Internet\n\nTốc độ đường truyền chỉ là một phần. Nếu thiết bị ở xa router, nhiều lớp tường hoặc khu vực có nhiều mạng Wi‑Fi lân cận, trải nghiệm vẫn có thể kém dù gói cước cao.\n\n## Kiểm tra vị trí phát sóng\n\nRouter hoặc Access Point nên đặt tại vị trí phù hợp với khu vực sử dụng, tránh bị che kín bởi tủ, kim loại hoặc đặt quá thấp.\n\n## Kiểm tra số lượng thiết bị\n\nCamera IP, điện thoại, TV, máy tính và thiết bị IoT cùng sử dụng một mạng có thể tạo tải lớn. Hệ thống nhiều tầng/phòng thường cần nhiều Access Point thay vì một router công suất cao.\n\n## Kiểm tra dây mạng và switch\n\nVới camera và Access Point có dây, lỗi đầu bấm, dây mạng hoặc switch cũng có thể làm hệ thống chập chờn.\n\n**Một khảo sát ngắn tại chỗ thường giúp xác định đúng điểm nghẽn trước khi mua thêm thiết bị.**",
+      "gallery": []
+    },
+    {
+      "title": "MẪU — Công trình thực tế: thay nội dung này bằng dự án của Minh Khôi",
+      "slug": "mau-cong-trinh-thuc-te",
+      "category": "Công trình thực tế",
+      "date": "2026-09-24T07:10:00+07:00",
+      "author": "Minh Khôi Tech",
+      "excerpt": "Bài mẫu để anh thử giao diện đăng công trình, upload ảnh trước/sau và mô tả thiết bị. Bài đang ẩn, không hiển thị ngoài website.",
+      "cover_image": "/assets/logo-minh-khoi.png",
+      "cover_alt": "Mẫu bài công trình Minh Khôi Tech",
+      "featured": false,
+      "published": false,
+      "seo_title": "",
+      "seo_description": "",
+      "content": "## Thông tin công trình\n\n- Khu vực: ...\n- Hiện trạng: ...\n- Số lượng camera/AP: ...\n- Thiết bị sử dụng: ...\n\n## Trước khi xử lý\n\nMô tả lỗi khách hàng gặp phải.\n\n## Phương án thực hiện\n\nMô tả các bước Minh Khôi đã xử lý.\n\n## Kết quả\n\nMô tả kết quả sau khi hoàn tất và thêm ảnh vào **Album ảnh** bên dưới.",
+      "gallery": []
+    }
+  ]
+}
