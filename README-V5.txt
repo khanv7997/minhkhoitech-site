@@ -43,3 +43,11 @@ LƯU Ý
 - V5 là CMS tĩnh không dùng database; toàn bộ nội dung được lưu trong GitHub.
 - Nếu đổi repo: mở /admin/?reset=1.
 - Không cần sửa DNS, P.A Việt Nam hoặc SSL khi chỉ update source.
+
+
+V5.1 - IT HELPDESK TỪ XA
+- Bổ sung section Helpdesk từ xa theo tháng trên trang chủ.
+- Gói tham khảo: 2.000.000đ/tháng cho quy mô khoảng 10 máy.
+- Phản hồi/bắt đầu xử lý trong vòng 2 giờ, giờ hành chính.
+- Onsite, vật tư, thiết bị, phần mềm bản quyền và sửa phần cứng báo phí riêng.
+- Toàn bộ nội dung Helpdesk chỉnh được trong /admin/.

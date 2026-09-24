@@ -1,6 +1,6 @@
 {
-  "seo_title": "Minh Khôi Camera & Mạng | Kiểm tra tận nơi Tân Phú",
-  "seo_description": "Camera mất hình, không xem được từ xa, Wi-Fi yếu? Minh Khôi kiểm tra camera & mạng tận nơi khu vực Tân Phú, Tây Thạnh và lân cận. Khảo sát miễn phí, báo giá trước khi làm.",
+  "seo_title": "Minh Khôi Camera, Mạng & IT Helpdesk | Tân Phú",
+  "seo_description": "Minh Khôi hỗ trợ camera, mạng Wi‑Fi và IT Helpdesk từ xa theo tháng cho nhà ở, cửa hàng và doanh nghiệp nhỏ tại Tân Phú, Tây Thạnh và lân cận.",
   "business_name": "MINH KHÔI",
   "brand_tagline": "CAMERA · MẠNG · CÔNG NGHỆ",
   "phone": "0901 234 567",
@@ -28,6 +28,9 @@
     },
     {
       "text": "Có gói bảo trì tháng"
+    },
+    {
+      "text": "Có IT Helpdesk từ xa theo tháng"
     }
   ],
   "trust_cards": [
@@ -46,6 +49,10 @@
     {
       "title": "Combo",
       "text": "Camera + mạng cho nhà, shop, văn phòng nhỏ"
+    },
+    {
+      "title": "IT Helpdesk từ xa",
+      "text": "Windows · Office · email · máy in · mạng cơ bản · hỗ trợ người dùng"
     }
   ],
   "problem_kicker": "Đúng vấn đề – xử lý đúng chỗ",
@@ -139,6 +146,27 @@
           "text": "Áp dụng chính sách cọc theo cam kết"
         }
       ]
+    },
+    {
+      "title": "IT Helpdesk từ xa",
+      "amount": "2.000K",
+      "suffix": "/tháng",
+      "featured": false,
+      "badge": "Mới · ~10 máy",
+      "bullets": [
+        {
+          "text": "Remote hỗ trợ trong giờ hành chính"
+        },
+        {
+          "text": "Phản hồi và bắt đầu xử lý trong vòng 2 giờ"
+        },
+        {
+          "text": "Windows · Office · email · máy in · mạng · camera cơ bản"
+        },
+        {
+          "text": "Không gồm onsite; phát sinh sẽ báo phí riêng"
+        }
+      ]
     }
   ],
   "price_note": "* Giá tham khảo theo bảng tư vấn hiện tại; chi phí cuối cùng phụ thuộc thiết bị, hiện trạng đường dây, vị trí và phạm vi công việc.",
@@ -177,6 +205,10 @@
     {
       "title": "Có bảo trì định kỳ",
       "text": "Phù hợp shop, cửa hàng và văn phòng cần người theo dõi hệ thống."
+    },
+    {
+      "title": "Có Helpdesk từ xa",
+      "text": "Doanh nghiệp nhỏ có đầu mối IT hỗ trợ hàng tháng mà không cần IT onsite cố định."
     }
   ],
   "area_options": [
@@ -217,6 +249,9 @@
     },
     {
       "text": "Camera + mạng"
+    },
+    {
+      "text": "IT Helpdesk từ xa theo tháng"
     }
   ],
   "form_privacy": "Thông tin chỉ dùng để liên hệ tư vấn và khảo sát dịch vụ. Có thể kết nối Google Sheets / CRM bằng endpoint trong trang quản trị.",
@@ -239,6 +274,10 @@
     {
       "question": "Khi nào biết giá chính xác?",
       "answer": "Sau khi kiểm tra hiện trạng. Minh Khôi khảo sát miễn phí và báo giá trước khi thực hiện."
+    },
+    {
+      "question": "Gói IT Helpdesk từ xa 2 triệu/tháng bao gồm những gì?",
+      "answer": "Gói áp dụng khoảng 10 máy tính, hỗ trợ từ xa trong giờ hành chính với thời gian phản hồi và bắt đầu xử lý trong vòng 2 giờ. Phạm vi gồm Windows, Office, email, máy in/scan, mạng/Wi‑Fi và camera ở mức cơ bản. Công việc cần onsite, vật tư, thiết bị, phần mềm bản quyền hoặc sửa phần cứng sẽ báo phí riêng."
     }
   ],
   "footer_business": "MINH KHÔI CAMERA & MẠNG",
@@ -248,5 +287,52 @@
   "blog_kicker": "Kiến thức & công trình",
   "blog_title": "Bài viết mới từ Minh Khôi",
   "blog_intro": "Chia sẻ cách xử lý các lỗi camera, mạng Wi‑Fi và cập nhật công trình thực tế.",
-  "blog_button": "Xem tất cả bài viết"
+  "blog_button": "Xem tất cả bài viết",
+  "helpdesk_kicker": "IT HELPDESK TỪ XA",
+  "helpdesk_title": "Có IT hỗ trợ từ xa mỗi tháng, không cần tuyển IT riêng",
+  "helpdesk_intro": "Phù hợp doanh nghiệp nhỏ khoảng 10 máy tính cần một đầu mối xử lý các sự cố IT hằng ngày. Tiếp nhận yêu cầu trong giờ hành chính, phản hồi và bắt đầu xử lý từ xa trong vòng 2 giờ.",
+  "helpdesk_price": "2.000.000đ",
+  "helpdesk_price_suffix": "/tháng",
+  "helpdesk_badge": "Gói Remote · khoảng 10 máy",
+  "helpdesk_facts": [
+    {
+      "label": "Phản hồi",
+      "value": "Trong vòng 2 giờ"
+    },
+    {
+      "label": "Hình thức",
+      "value": "Remote trong giờ hành chính"
+    },
+    {
+      "label": "Onsite",
+      "value": "Không bao gồm · báo phí riêng"
+    }
+  ],
+  "helpdesk_items": [
+    {
+      "title": "Máy tính & phần mềm",
+      "text": "Hỗ trợ Windows, Office và các phần mềm văn phòng thông dụng."
+    },
+    {
+      "title": "Email & tài khoản",
+      "text": "Hỗ trợ Outlook, Google Workspace hoặc Microsoft 365 khi doanh nghiệp đang sử dụng."
+    },
+    {
+      "title": "Máy in & scan",
+      "text": "Cấu hình máy in, chia sẻ máy in, scan và xử lý các lỗi cơ bản có thể thao tác từ xa."
+    },
+    {
+      "title": "Mạng & Wi‑Fi",
+      "text": "Kiểm tra và chẩn đoán LAN, Wi‑Fi, modem, router, switch ở mức cơ bản."
+    },
+    {
+      "title": "Camera",
+      "text": "Kiểm tra camera, đầu ghi và hỗ trợ xem camera trên điện thoại/máy tính ở mức cơ bản."
+    },
+    {
+      "title": "Tư vấn IT",
+      "text": "Tư vấn nâng cấp thiết bị, phần mềm và phương án xử lý khi phát sinh sự cố."
+    }
+  ],
+  "helpdesk_note": "Không bao gồm vật tư, thiết bị, phần mềm bản quyền, đi dây, lắp thiết bị mới, sửa chữa phần cứng hoặc các công việc bắt buộc phải có mặt tại chỗ. Các hạng mục onsite sẽ được báo phí riêng trước khi thực hiện."
 }
