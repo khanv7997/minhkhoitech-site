@@ -1,8 +1,17 @@
 <!doctype html>
 <html lang="vi">
 <head>
-<link rel="icon" type="image/png" href="/favicon.png?v=8">
-<link rel="shortcut icon" type="image/png" href="/favicon.png?v=8">
+<a class="brand brand-image" href="#top" aria-label="Minh Khôi Tech">
+  <img class="brand-logo-img" src="/favicon.png?v=8" alt="Minh Khôi Tech">
+  <span class="brand-name-display">
+    <span>Minh Khôi</span>
+    <span class="brand-tech">Tech</span>
+  </span>
+  <span id="brandText" class="brand-old-text">
+    MINH KHÔI
+    <small id="brandTagline">CAMERA · MẠNG · CÔNG NGHỆ</small>
+  </span>
+</a>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Minh Khôi Camera & Mạng | Kiểm tra tận nơi Tân Phú</title>
@@ -85,6 +94,71 @@ a{color:inherit;text-decoration:none}img{display:block;max-width:100%}button,inp
 .brand.brand-image .brand-old-text{display:none!important}
 @media(max-width:1080px){.brand.brand-image{width:138px!important}.brand.brand-image .brand-logo-img{width:138px!important}}
 @media(max-width:640px){.brand.brand-image{width:112px!important;height:48px!important}.brand.brand-image .brand-logo-img{width:112px!important;height:48px!important}.nav{height:68px}.lead-grid{gap:34px}.form-card{padding:22px;border-radius:14px}.form-actions .btn{width:100%}}
+/* ===== BRAND LOGO + TEXT ===== */
+.brand.brand-image{
+  display:flex !important;
+  align-items:center !important;
+  gap:12px !important;
+  width:auto !important;
+  height:auto !important;
+  overflow:visible !important;
+  flex:0 0 auto !important;
+  text-decoration:none !important;
+}
+
+.brand.brand-image .brand-logo-img{
+  display:block !important;
+  width:78px !important;
+  height:58px !important;
+  max-width:78px !important;
+  max-height:58px !important;
+  object-fit:contain !important;
+  margin:0 !important;
+  padding:0 !important;
+  flex:0 0 auto !important;
+}
+
+.brand-name-display{
+  display:flex;
+  align-items:baseline;
+  gap:7px;
+  white-space:nowrap;
+
+  font-family:"Space Grotesk", Manrope, sans-serif;
+  font-size:26px;
+  line-height:1;
+  font-weight:700;
+  letter-spacing:-0.045em;
+
+  color:#07131f;
+}
+
+.brand-name-display .brand-tech{
+  color:#064a9b;
+  font-weight:800;
+}
+
+.brand.brand-image .brand-old-text{
+  display:none !important;
+}
+
+@media(max-width:768px){
+  .brand.brand-image{
+    gap:8px !important;
+  }
+
+  .brand.brand-image .brand-logo-img{
+    width:60px !important;
+    height:46px !important;
+    max-width:60px !important;
+    max-height:46px !important;
+  }
+
+  .brand-name-display{
+    font-size:20px;
+    gap:5px;
+  }
+}
 </style>
 </head>
 <body>
