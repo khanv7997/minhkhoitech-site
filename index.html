@@ -246,5 +246,76 @@ if(form){form.addEventListener('submit',()=>{const btn=$('#submitLead'),box=$('#
 if(leadSink){leadSink.addEventListener('load',()=>{if(!leadSubmitting||!form)return;leadSubmitting=false;const data=Object.fromEntries(new FormData(form).entries()),box=$('#successBox'),btn=$('#submitLead');track('generate_lead',{need:data.need||'',area:data.area||'',utm_source:data.utm_source||'',utm_campaign:data.utm_campaign||'',gclid:data.gclid||''});if(box){box.className='success ok';box.textContent='Đã gửi yêu cầu thành công. Minh Khôi sẽ liên hệ lại sớm.';box.style.display='block'}form.reset();['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid'].forEach(k=>{const e=document.getElementById(k);if(e)e.value=params.get(k)||''});if(pageUrl)pageUrl.value=location.href;if(btn){btn.disabled=false;btn.textContent='Gửi yêu cầu'}})}
 function initReveal(){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.08});document.querySelectorAll('.reveal:not(.on)').forEach(e=>io.observe(e))}window.addEventListener('scroll',()=>$('#header').classList.toggle('scrolled',scrollY>30),{passive:true});loadSite();loadPosts();
 </script>
+<script>
+/* =====================================================
+   MINH KHOI TECH - GOOGLE ADS CONVERSION TRACKING
+   ===================================================== */
+
+const GOOGLE_ADS_ID = 'AW-18472030906';
+
+/*
+  Sau khi tạo 2 conversion trong Google Ads,
+  thay 2 dòng bên dưới bằng Conversion Label thật.
+*/
+const CALL_CONVERSION_LABEL = 'THAY_LABEL_GOI_O_DAY';
+const ZALO_CONVERSION_LABEL = 'THAY_LABEL_ZALO_O_DAY';
+
+
+/* ---------- BẤM GỌI ĐIỆN ---------- */
+document.querySelectorAll('a[href^="tel:"]').forEach(function(link) {
+
+    link.addEventListener('click', function(e) {
+
+        const href = this.href;
+
+        if (
+            typeof gtag !== 'function' ||
+            CALL_CONVERSION_LABEL === 'THAY_LABEL_GOI_O_DAY'
+        ) {
+            return;
+        }
+
+        e.preventDefault();
+
+        let redirected = false;
+
+        const go = function() {
+            if (redirected) return;
+            redirected = true;
+            window.location.href = href;
+        };
+
+        gtag('event', 'conversion', {
+            'send_to': GOOGLE_ADS_ID + '/' + CALL_CONVERSION_LABEL,
+            'event_callback': go,
+            'event_timeout': 1200
+        });
+
+        setTimeout(go, 1300);
+    });
+
+});
+
+
+/* ---------- BẤM ZALO ---------- */
+document.querySelectorAll('a[href*="zalo.me"]').forEach(function(link) {
+
+    link.addEventListener('click', function() {
+
+        if (
+            typeof gtag !== 'function' ||
+            ZALO_CONVERSION_LABEL === 'THAY_LABEL_ZALO_O_DAY'
+        ) {
+            return;
+        }
+
+        gtag('event', 'conversion', {
+            'send_to': GOOGLE_ADS_ID + '/' + ZALO_CONVERSION_LABEL
+        });
+
+    });
+
+});
+</script>
 </body>
 </html>
