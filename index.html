@@ -318,17 +318,72 @@ document.querySelectorAll('a[href*="zalo.me"]').forEach(function(link) {
 });
 </script>
 <script>
-function googleAdsLeadConversion() {
-    if (typeof gtag === 'function') {
-        gtag('event', 'conversion', {
-            'send_to': 'AW-18472030906/_AJ0CK6foIodELqlk-hE',
-            'value': 1.0,
-            'currency': 'VND'
-        });
+(function () {
+    const form = document.getElementById('leadForm');
+    const sink = document.getElementById('lead_sink');
 
-        console.log('Google Ads Lead Conversion sent');
+    if (!form || !sink) return;
+
+    let formDangGui = false;
+
+    form.addEventListener('submit', function () {
+        formDangGui = true;
+
+        const submitBtn = form.querySelector(
+            'button[type="submit"], input[type="submit"]'
+        );
+
+        if (submitBtn) {
+            submitBtn.disabled = true;
+
+            if (submitBtn.tagName === 'BUTTON') {
+                submitBtn.dataset.oldText = submitBtn.innerHTML;
+                submitBtn.innerHTML = 'Đang gửi...';
+            }
+        }
+    });
+
+    sink.addEventListener('load', function () {
+
+        // Bỏ qua lần iframe load ban đầu
+        if (!formDangGui) return;
+
+        formDangGui = false;
+
+        // Đánh dấu đây là khách vừa submit form thật
+        sessionStorage.setItem('lead_submitted', '1');
+
+        // Chuyển sang trang cảm ơn
+        window.location.href = '/cam-on.html';
+    });
+})();
+</script>
+<script>
+(function () {
+
+    if (sessionStorage.getItem('lead_submitted') !== '1') {
+        console.log('Không phải truy cập từ form - không ghi conversion');
+        return;
     }
-}
+
+    if (typeof gtag !== 'function') {
+        console.error('Google tag chưa tải');
+        return;
+    }
+
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18472030906/_AJ0CK6foIodELqlk-hE',
+        'value': 1.0,
+        'currency': 'VND',
+        'event_callback': function () {
+            console.log('Google Ads Lead Conversion sent');
+        }
+    });
+
+    // Xóa ngay để F5 không tính thêm conversion
+    sessionStorage.removeItem('lead_submitted');
+
+})();
 </script>
 </body>
 </html>
