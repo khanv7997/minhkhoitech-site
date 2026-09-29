@@ -253,12 +253,8 @@ function initReveal(){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.
 
 const GOOGLE_ADS_ID = 'AW-18472030906';
 
-/*
-  Sau khi tạo 2 conversion trong Google Ads,
-  thay 2 dòng bên dưới bằng Conversion Label thật.
-*/
-const CALL_CONVERSION_LABEL = 'THAY_LABEL_GOI_O_DAY';
-const ZALO_CONVERSION_LABEL = 'THAY_LABEL_ZALO_O_DAY';
+const CALL_CONVERSION_LABEL = 'LaglCKXF5oUdELqlk-hE';
+const ZALO_CONVERSION_LABEL = 'U4AnCPP2ooodELqlk-hE';
 
 
 /* ---------- BẤM GỌI ĐIỆN ---------- */
@@ -266,14 +262,12 @@ document.querySelectorAll('a[href^="tel:"]').forEach(function(link) {
 
     link.addEventListener('click', function(e) {
 
-        const href = this.href;
-
-        if (
-            typeof gtag !== 'function' ||
-            CALL_CONVERSION_LABEL === 'THAY_LABEL_GOI_O_DAY'
-        ) {
+        if (typeof gtag !== 'function') {
+            console.warn('gtag chưa sẵn sàng - Call conversion không gửi');
             return;
         }
+
+        const href = this.href;
 
         e.preventDefault();
 
@@ -287,10 +281,16 @@ document.querySelectorAll('a[href^="tel:"]').forEach(function(link) {
 
         gtag('event', 'conversion', {
             'send_to': GOOGLE_ADS_ID + '/' + CALL_CONVERSION_LABEL,
-            'event_callback': go,
+            'value': 1.0,
+            'currency': 'VND',
+            'event_callback': function() {
+                console.log('Google Ads Call Conversion sent');
+                go();
+            },
             'event_timeout': 1200
         });
 
+        // Dự phòng nếu Google callback chậm
         setTimeout(go, 1300);
     });
 
@@ -302,17 +302,19 @@ document.querySelectorAll('a[href*="zalo.me"]').forEach(function(link) {
 
     link.addEventListener('click', function() {
 
-        if (
-            typeof gtag !== 'function' ||
-            ZALO_CONVERSION_LABEL === 'THAY_LABEL_ZALO_O_DAY'
-        ) {
+        if (typeof gtag !== 'function') {
+            console.warn('gtag chưa sẵn sàng - Zalo conversion không gửi');
             return;
         }
 
         gtag('event', 'conversion', {
-            'send_to': GOOGLE_ADS_ID + '/' + ZALO_CONVERSION_LABEL
+            'send_to': GOOGLE_ADS_ID + '/' + ZALO_CONVERSION_LABEL,
+            'value': 1.0,
+            'currency': 'VND',
+            'event_callback': function() {
+                console.log('Google Ads Zalo Conversion sent');
+            }
         });
-
     });
 
 });
