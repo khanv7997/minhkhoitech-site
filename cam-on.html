@@ -7,23 +7,21 @@
   <title>Cảm ơn bạn | Minh Khôi Tech</title>
   <meta name="description" content="Cảm ơn bạn đã gửi yêu cầu đến Minh Khôi Tech. Chúng tôi sẽ liên hệ lại sớm nhất.">
   <link rel="icon" type="image/png" href="/favicon.png?v=8">
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18472030906"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-18472030906');
+(function () {
+    if (sessionStorage.getItem('lead_submitted') !== '1') {
+        return;
+    }
 
-    // Google Ads conversion: chỉ chạy khi trang cảm ơn được tải
     gtag('event', 'conversion', {
-      'send_to': 'AW-18472030906/LJO2COLbyYMdElq1k-hE',
-      'value': 1.0,
-      'currency': 'VND'
+        'send_to': 'AW-18472030906/_AJ0CK6foIodELqlk-hE',
+        'value': 1.0,
+        'currency': 'VND'
     });
-  </script>
 
+    sessionStorage.removeItem('lead_submitted');
+})();
+</script>
   <style>
     :root{
       --navy:#0b2f58;
